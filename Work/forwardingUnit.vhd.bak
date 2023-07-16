@@ -1,0 +1,28 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+entity forwardingUnit is 
+
+	port (
+		ExMem_RegWrite : IN STD_LOGIC;
+		ExMem_Rd, IdEx_Rs : IN STD_LOGIC_VECTOR(7 downto 0);
+		
+		MemWb_RegWrite : IN STD_LOGIC;
+		MemWb_Rd, 
+		
+		FA1, FA0, FB1, FB0 : OUT STD_LOGIC);
+
+end forwardingUnit; 
+
+architecture rtl of forwardingUnit is 
+
+	signal 
+
+	begin 
+	
+	
+	
+	
+	
+
+end rtl;
