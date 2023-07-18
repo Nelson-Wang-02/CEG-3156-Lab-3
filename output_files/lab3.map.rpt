@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab3
-Thu Jul 13 15:33:55 2023
+Tue Jul 18 03:06:42 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -13,12 +13,73 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Port Connectivity Checks: "eightBitComparator:comp|oneBitComparator:comp7"
- 10. Port Connectivity Checks: "eightBitComparator:comp"
- 11. Port Connectivity Checks: "eightBitAddSub:addSub"
- 12. Elapsed Time Per Partition
- 13. Analysis & Synthesis Messages
+  8. Analysis & Synthesis IP Cores Summary
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Source assignments for instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated
+ 13. Source assignments for dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated
+ 14. Parameter Settings for User Entity Instance: instrMem:insMemory|altsyncram:altsyncram_component
+ 15. Parameter Settings for User Entity Instance: dataMem:dataMemory|altsyncram:altsyncram_component
+ 16. altsyncram Parameter Settings by Entity Instance
+ 17. Port Connectivity Checks: "eightBitRegister:reg_MEMWB_dataMemAddr"
+ 18. Port Connectivity Checks: "regMEMWB:reg_MEMWB|fiveBitRegister:instr"
+ 19. Port Connectivity Checks: "regMEMWB:reg_MEMWB|eightBitRegister:dataMem"
+ 20. Port Connectivity Checks: "forwardingUnit:fUnit|fiveBitComparator:comp0_RdRt"
+ 21. Port Connectivity Checks: "forwardingUnit:fUnit|fiveBitComparator:comp0_RdRs"
+ 22. Port Connectivity Checks: "forwardingUnit:fUnit|eightBitComparatorZero:comp0_0"
+ 23. Port Connectivity Checks: "forwardingUnit:fUnit|fiveBitComparator:comp1_RdRt"
+ 24. Port Connectivity Checks: "forwardingUnit:fUnit|fiveBitComparator:comp1_RdRs"
+ 25. Port Connectivity Checks: "forwardingUnit:fUnit|eightBitComparatorZero:comp1_0"
+ 26. Port Connectivity Checks: "eightBitRegister:readData2_inst"
+ 27. Port Connectivity Checks: "regEXMEM:reg_EXMEM|fiveBitRegister:instr"
+ 28. Port Connectivity Checks: "regEXMEM:reg_EXMEM|eightBitRegister:aluResult"
+ 29. Port Connectivity Checks: "regEXMEM:reg_EXMEM"
+ 30. Port Connectivity Checks: "alu:exALU|eightBitComparator:comp"
+ 31. Port Connectivity Checks: "alu:exALU|eightBitAddSub:addSub"
+ 32. Port Connectivity Checks: "alu:exALU"
+ 33. Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd"
+ 34. Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt"
+ 35. Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b0"
+ 36. Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b1"
+ 37. Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b2"
+ 38. Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b3"
+ 39. Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b4"
+ 40. Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs"
+ 41. Port Connectivity Checks: "regIDEX:reg_IDEX|eightBitRegister:addr15_0_0"
+ 42. Port Connectivity Checks: "regIDEX:reg_IDEX|eightBitRegister:addr15_0_1"
+ 43. Port Connectivity Checks: "regIDEX:reg_IDEX|eightBitRegister:readReg2"
+ 44. Port Connectivity Checks: "regIDEX:reg_IDEX|eightBitRegister:readReg1"
+ 45. Port Connectivity Checks: "regIDEX:reg_IDEX|regEX:ex|enARdFF_2:alusrc"
+ 46. Port Connectivity Checks: "regIDEX:reg_IDEX|regEX:ex|enARdFF_2:aluop2"
+ 47. Port Connectivity Checks: "regIDEX:reg_IDEX|regEX:ex|enARdFF_2:aluop1"
+ 48. Port Connectivity Checks: "regIDEX:reg_IDEX|regEX:ex|enARdFF_2:regdst"
+ 49. Port Connectivity Checks: "regIDEX:reg_IDEX|regM:m|enARdFF_2:bot"
+ 50. Port Connectivity Checks: "regIDEX:reg_IDEX|regM:m|enARdFF_2:mid"
+ 51. Port Connectivity Checks: "regIDEX:reg_IDEX|regM:m|enARdFF_2:top"
+ 52. Port Connectivity Checks: "regIDEX:reg_IDEX|regWB:wb|enARdFF_2:bot"
+ 53. Port Connectivity Checks: "regIDEX:reg_IDEX|regWB:wb|enARdFF_2:top"
+ 54. Port Connectivity Checks: "regIDEX:reg_IDEX"
+ 55. Port Connectivity Checks: "eightBitComparator:branchEqual|oneBitComparator:comp7"
+ 56. Port Connectivity Checks: "eightBitComparator:branchEqual"
+ 57. Port Connectivity Checks: "eightBitAddSub:ALU_ID"
+ 58. Port Connectivity Checks: "nineBit2to1Mux:controlMux"
+ 59. Port Connectivity Checks: "controlLogicUnit:control"
+ 60. Port Connectivity Checks: "hazardDetectionUnit:hazard|fiveBitComparator:comp2"
+ 61. Port Connectivity Checks: "hazardDetectionUnit:hazard|fiveBitComparator:comp1|oneBitComparator:comp4"
+ 62. Port Connectivity Checks: "hazardDetectionUnit:hazard|fiveBitComparator:comp1"
+ 63. Port Connectivity Checks: "regIFID:reg_IFID"
+ 64. Port Connectivity Checks: "eightBitAddSub:pcPlus4"
+ 65. Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b0"
+ 66. Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b1"
+ 67. Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b2"
+ 68. Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b3"
+ 69. Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b4"
+ 70. Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b5"
+ 71. Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b6"
+ 72. Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b7"
+ 73. Elapsed Time Per Partition
+ 74. Analysis & Synthesis Messages
 
 
 
@@ -44,16 +105,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Jul 13 15:33:55 2023           ;
+; Analysis & Synthesis Status        ; Successful - Tue Jul 18 03:06:42 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; lab3                                            ;
-; Top-level Entity Name              ; alu                                             ;
+; Top-level Entity Name              ; pipeline                                        ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 55                                              ;
-;     Total combinational functions  ; 55                                              ;
+; Total logic elements               ; 0                                               ;
+;     Total combinational functions  ; 0                                               ;
 ;     Dedicated logic registers      ; 0                                               ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 28                                              ;
+; Total pins                         ; 49                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -67,7 +128,7 @@ applicable agreement for further details.
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                     ; EP4CE115F29C7      ;                    ;
-; Top-level entity name                                                      ; alu                ; lab3               ;
+; Top-level entity name                                                      ; pipeline           ; lab3               ;
 ; Family name                                                                ; Cyclone IV E       ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -159,81 +220,420 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                      ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                               ; Library ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------+---------+
-; Work/oneBit5to1Mux.vhd           ; yes             ; User VHDL File  ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/oneBit5to1Mux.vhd       ;         ;
-; Work/eightBitComparator.vhd      ; yes             ; User VHDL File  ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBitComparator.vhd  ;         ;
-; Work/eightBitAddSub.vhd          ; yes             ; User VHDL File  ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBitAddSub.vhd      ;         ;
-; Work/eightBit5to1Mux.vhd         ; yes             ; User VHDL File  ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBit5to1Mux.vhd     ;         ;
-; Work/alu.vhd                     ; yes             ; User VHDL File  ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/alu.vhd                 ;         ;
-; Imports/onebitcomparator.vhd     ; yes             ; User VHDL File  ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Imports/onebitcomparator.vhd ;         ;
-; Imports/onebitadder.vhd          ; yes             ; User VHDL File  ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Imports/onebitadder.vhd      ;         ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                ;
++----------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                  ; Library ;
++----------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------+---------+
+; Work/three_to_eight_decoder.vhd  ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/three_to_eight_decoder.vhd ;         ;
+; Work/shiftLeft2_eightBits.vhd    ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/shiftLeft2_eightBits.vhd   ;         ;
+; Work/registerFile.vhd            ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/registerFile.vhd           ;         ;
+; Work/oneBit8to1Mux.vhd           ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/oneBit8to1Mux.vhd          ;         ;
+; Work/oneBit5to1Mux.vhd           ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/oneBit5to1Mux.vhd          ;         ;
+; Work/oneBit2to1Mux.vhd           ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/oneBit2to1Mux.vhd          ;         ;
+; Work/instrMem.vhd                ; yes             ; User Wizard-Generated File             ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/instrMem.vhd               ;         ;
+; Work/eightBitRegister.vhd        ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBitRegister.vhd       ;         ;
+; Work/eightBitComparator.vhd      ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBitComparator.vhd     ;         ;
+; Work/eightBitAddSub.vhd          ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBitAddSub.vhd         ;         ;
+; Work/eightBit8to1Mux.vhd         ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBit8to1Mux.vhd        ;         ;
+; Work/eightBit5to1Mux.vhd         ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBit5to1Mux.vhd        ;         ;
+; Work/eightBit2to1Mux.vhd         ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBit2to1Mux.vhd        ;         ;
+; Work/dataMem.vhd                 ; yes             ; User Wizard-Generated File             ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/dataMem.vhd                ;         ;
+; Work/controlLogicUnit.vhd        ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/controlLogicUnit.vhd       ;         ;
+; Work/ALUControlUnit.vhd          ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/ALUControlUnit.vhd         ;         ;
+; Work/alu.vhd                     ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/alu.vhd                    ;         ;
+; Imports/onebitcomparator.vhd     ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Imports/onebitcomparator.vhd    ;         ;
+; Imports/onebitadder.vhd          ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Imports/onebitadder.vhd         ;         ;
+; Imports/enardFF_2.vhd            ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Imports/enardFF_2.vhd           ;         ;
+; Work/forwardingUnit.vhd          ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/forwardingUnit.vhd         ;         ;
+; Work/eightBitComparatorZero.vhd  ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBitComparatorZero.vhd ;         ;
+; Work/regIFID.vhd                 ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/regIFID.vhd                ;         ;
+; Work/regIDEX.vhd                 ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/regIDEX.vhd                ;         ;
+; Work/regWB.vhd                   ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/regWB.vhd                  ;         ;
+; Work/regM.vhd                    ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/regM.vhd                   ;         ;
+; Work/regEX.vhd                   ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/regEX.vhd                  ;         ;
+; Work/fiveBitRegister.vhd         ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/fiveBitRegister.vhd        ;         ;
+; Work/regEXMEM.vhd                ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/regEXMEM.vhd               ;         ;
+; Work/regMEMWB.vhd                ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/regMEMWB.vhd               ;         ;
+; Work/hazardDetectionUnit.vhd     ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/hazardDetectionUnit.vhd    ;         ;
+; Work/pipeline.vhd                ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/pipeline.vhd               ;         ;
+; Work/nineBit2to1Mux.vhd          ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/nineBit2to1Mux.vhd         ;         ;
+; Work/eightBit3to1Mux.vhd         ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/eightBit3to1Mux.vhd        ;         ;
+; Work/oneBit3to1Mux.vhd           ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/oneBit3to1Mux.vhd          ;         ;
+; Work/fiveBit2to1Mux.vhd          ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/fiveBit2to1Mux.vhd         ;         ;
+; Work/fiveBitComparator.vhd       ; yes             ; User VHDL File                         ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/fiveBitComparator.vhd      ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf              ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc       ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                 ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc              ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc              ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc               ;         ;
+; altrom.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc                  ;         ;
+; altram.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc                  ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc                ;         ;
+; db/altsyncram_pua1.tdf           ; yes             ; Auto-Generated Megafunction            ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/db/altsyncram_pua1.tdf          ;         ;
+; mifs/verificationtest.mif        ; yes             ; Auto-Found Memory Initialization File  ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/mifs/verificationtest.mif       ;         ;
+; db/altsyncram_q4t1.tdf           ; yes             ; Auto-Generated Megafunction            ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/db/altsyncram_q4t1.tdf          ;         ;
+; mifs/datamem.mif                 ; yes             ; Auto-Found Memory Initialization File  ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/mifs/datamem.mif                ;         ;
++----------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 55          ;
-;                                             ;             ;
-; Total combinational functions               ; 55          ;
-; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 44          ;
-;     -- 3 input functions                    ; 8           ;
-;     -- <=2 input functions                  ; 3           ;
-;                                             ;             ;
-; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 55          ;
-;     -- arithmetic mode                      ; 0           ;
-;                                             ;             ;
-; Total registers                             ; 0           ;
-;     -- Dedicated logic registers            ; 0           ;
-;     -- I/O registers                        ; 0           ;
-;                                             ;             ;
-; I/O pins                                    ; 28          ;
-; Embedded Multiplier 9-bit elements          ; 0           ;
-; Maximum fan-out node                        ; Op[0]~input ;
-; Maximum fan-out                             ; 28          ;
-; Total fan-out                               ; 243         ;
-; Average fan-out                             ; 2.19        ;
-+---------------------------------------------+-------------+
++------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary          ;
++---------------------------------------------+--------+
+; Resource                                    ; Usage  ;
++---------------------------------------------+--------+
+;                                             ;        ;
+; Total combinational functions               ; 0      ;
+; Logic element usage by number of LUT inputs ;        ;
+;     -- 4 input functions                    ; 0      ;
+;     -- 3 input functions                    ; 0      ;
+;     -- <=2 input functions                  ; 0      ;
+;                                             ;        ;
+; Logic elements by mode                      ;        ;
+;     -- normal mode                          ; 0      ;
+;     -- arithmetic mode                      ; 0      ;
+;                                             ;        ;
+; Total registers                             ; 0      ;
+;     -- Dedicated logic registers            ; 0      ;
+;     -- I/O registers                        ; 0      ;
+;                                             ;        ;
+; I/O pins                                    ; 49     ;
+; Embedded Multiplier 9-bit elements          ; 0      ;
+; Maximum fan-out node                        ; GClock ;
+; Maximum fan-out                             ; 1      ;
+; Total fan-out                               ; 49     ;
+; Average fan-out                             ; 0.50   ;
++---------------------------------------------+--------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                             ;
-+--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------+--------------+
-; Compilation Hierarchy Node     ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                 ; Library Name ;
-+--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------+--------------+
-; |alu                           ; 55 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 28   ; 0            ; |alu                                                ; work         ;
-;    |eightBit5to1Mux:mux|       ; 25 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBit5to1Mux:mux                            ; work         ;
-;       |oneBit5to1Mux:mux0|     ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBit5to1Mux:mux|oneBit5to1Mux:mux0         ; work         ;
-;       |oneBit5to1Mux:mux1|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBit5to1Mux:mux|oneBit5to1Mux:mux1         ; work         ;
-;       |oneBit5to1Mux:mux2|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBit5to1Mux:mux|oneBit5to1Mux:mux2         ; work         ;
-;       |oneBit5to1Mux:mux3|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBit5to1Mux:mux|oneBit5to1Mux:mux3         ; work         ;
-;       |oneBit5to1Mux:mux4|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBit5to1Mux:mux|oneBit5to1Mux:mux4         ; work         ;
-;       |oneBit5to1Mux:mux5|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBit5to1Mux:mux|oneBit5to1Mux:mux5         ; work         ;
-;       |oneBit5to1Mux:mux6|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBit5to1Mux:mux|oneBit5to1Mux:mux6         ; work         ;
-;       |oneBit5to1Mux:mux7|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBit5to1Mux:mux|oneBit5to1Mux:mux7         ; work         ;
-;    |eightBitAddSub:addSub|     ; 19 (4)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitAddSub:addSub                          ; work         ;
-;       |oneBitAdder:add0|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitAddSub:addSub|oneBitAdder:add0         ; work         ;
-;       |oneBitAdder:add1|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitAddSub:addSub|oneBitAdder:add1         ; work         ;
-;       |oneBitAdder:add2|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitAddSub:addSub|oneBitAdder:add2         ; work         ;
-;       |oneBitAdder:add3|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitAddSub:addSub|oneBitAdder:add3         ; work         ;
-;       |oneBitAdder:add4|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitAddSub:addSub|oneBitAdder:add4         ; work         ;
-;       |oneBitAdder:add5|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitAddSub:addSub|oneBitAdder:add5         ; work         ;
-;       |oneBitAdder:add6|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitAddSub:addSub|oneBitAdder:add6         ; work         ;
-;       |oneBitAdder:add7|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitAddSub:addSub|oneBitAdder:add7         ; work         ;
-;    |eightBitComparator:comp|   ; 11 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitComparator:comp                        ; work         ;
-;       |oneBitComparator:comp1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitComparator:comp|oneBitComparator:comp1 ; work         ;
-;       |oneBitComparator:comp2| ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitComparator:comp|oneBitComparator:comp2 ; work         ;
-;       |oneBitComparator:comp5| ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|eightBitComparator:comp|oneBitComparator:comp5 ; work         ;
-+--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |pipeline                  ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 49   ; 0            ; |pipeline           ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                          ;
++--------+--------------+---------+--------------+--------------+------------------------------+-----------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance              ; IP Include File                                                 ;
++--------+--------------+---------+--------------+--------------+------------------------------+-----------------------------------------------------------------+
+; Altera ; RAM: 2-PORT  ; N/A     ; N/A          ; N/A          ; |pipeline|dataMem:dataMemory ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/dataMem.vhd  ;
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |pipeline|instrMem:insMemory ; D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Work/instrMem.vhd ;
++--------+--------------+---------+--------------+--------------+------------------------------+-----------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                  ;
++------------------------------------------------------------------------------------------------+--------------------+
+; Register name                                                                                  ; Reason for Removal ;
++------------------------------------------------------------------------------------------------+--------------------+
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b0|int_q                                      ; Lost fanout        ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b1|int_q                                      ; Lost fanout        ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b2|int_q                                      ; Lost fanout        ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b3|int_q                                      ; Lost fanout        ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b4|int_q                                      ; Lost fanout        ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b5|int_q                                      ; Lost fanout        ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b6|int_q                                      ; Lost fanout        ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b7|int_q                                      ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b0|int_q                                    ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b1|int_q                                    ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b2|int_q                                    ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b3|int_q                                    ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b4|int_q                                    ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b0|int_q                                 ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b1|int_q                                 ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b2|int_q                                 ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b3|int_q                                 ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b4|int_q                                 ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b5|int_q                                 ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b6|int_q                                 ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b7|int_q                                 ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|regWB:wb|enARdFF_2:bot|int_q                                                ; Lost fanout        ;
+; regMEMWB:reg_MEMWB|regWB:wb|enARdFF_2:top|int_q                                                ; Lost fanout        ;
+; dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|rden_b_store ; Lost fanout        ;
+; eightBitRegister:readData2_inst|enARdFF_2:b0|int_q                                             ; Lost fanout        ;
+; eightBitRegister:readData2_inst|enARdFF_2:b1|int_q                                             ; Lost fanout        ;
+; eightBitRegister:readData2_inst|enARdFF_2:b2|int_q                                             ; Lost fanout        ;
+; eightBitRegister:readData2_inst|enARdFF_2:b3|int_q                                             ; Lost fanout        ;
+; eightBitRegister:readData2_inst|enARdFF_2:b4|int_q                                             ; Lost fanout        ;
+; eightBitRegister:readData2_inst|enARdFF_2:b5|int_q                                             ; Lost fanout        ;
+; eightBitRegister:readData2_inst|enARdFF_2:b6|int_q                                             ; Lost fanout        ;
+; eightBitRegister:readData2_inst|enARdFF_2:b7|int_q                                             ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b0|int_q                                    ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b1|int_q                                    ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b2|int_q                                    ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b3|int_q                                    ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b4|int_q                                    ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b0|int_q                               ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b1|int_q                               ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b2|int_q                               ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b3|int_q                               ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b4|int_q                               ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b5|int_q                               ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b6|int_q                               ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b7|int_q                               ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|regM:m|enARdFF_2:bot|int_q                                                  ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|regM:m|enARdFF_2:mid|int_q                                                  ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|regWB:wb|enARdFF_2:bot|int_q                                                ; Lost fanout        ;
+; regEXMEM:reg_EXMEM|regWB:wb|enARdFF_2:top|int_q                                                ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b0|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b1|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b2|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b3|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b4|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b0|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b1|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b2|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b3|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b4|int_q                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:addr15_0_0|enARdFF_2:b0|int_q                                ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:addr15_0_0|enARdFF_2:b1|int_q                                ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:addr15_0_0|enARdFF_2:b2|int_q                                ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:addr15_0_0|enARdFF_2:b3|int_q                                ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:addr15_0_0|enARdFF_2:b4|int_q                                ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:addr15_0_0|enARdFF_2:b5|int_q                                ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:addr15_0_0|enARdFF_2:b6|int_q                                ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:addr15_0_0|enARdFF_2:b7|int_q                                ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|regEX:ex|enARdFF_2:alusrc|int_q                                               ; Lost fanout        ;
+; regIDEX:reg_IDEX|regEX:ex|enARdFF_2:aluop2|int_q                                               ; Lost fanout        ;
+; regIDEX:reg_IDEX|regEX:ex|enARdFF_2:aluop1|int_q                                               ; Lost fanout        ;
+; regIDEX:reg_IDEX|regEX:ex|enARdFF_2:regdst|int_q                                               ; Lost fanout        ;
+; regIDEX:reg_IDEX|regM:m|enARdFF_2:bot|int_q                                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|regM:m|enARdFF_2:mid|int_q                                                    ; Lost fanout        ;
+; regIDEX:reg_IDEX|regWB:wb|enARdFF_2:bot|int_q                                                  ; Lost fanout        ;
+; regIDEX:reg_IDEX|regWB:wb|enARdFF_2:top|int_q                                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row1|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row1|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row1|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row1|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row1|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row1|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row1|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row1|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b0|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b1|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b2|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b3|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b4|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b5|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b6|int_q                                  ; Lost fanout        ;
+; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b7|int_q                                  ; Lost fanout        ;
+; regIFID:reg_IFID|eightBitRegister:b4|enARdFF_2:b0|int_q                                        ; Lost fanout        ;
+; regIFID:reg_IFID|eightBitRegister:b4|enARdFF_2:b1|int_q                                        ; Lost fanout        ;
+; regIFID:reg_IFID|eightBitRegister:b4|enARdFF_2:b2|int_q                                        ; Lost fanout        ;
+; regIFID:reg_IFID|eightBitRegister:b4|enARdFF_2:b3|int_q                                        ; Lost fanout        ;
+; regIFID:reg_IFID|eightBitRegister:b4|enARdFF_2:b4|int_q                                        ; Lost fanout        ;
+; regIFID:reg_IFID|eightBitRegister:b4|enARdFF_2:b5|int_q                                        ; Lost fanout        ;
+; regIFID:reg_IFID|eightBitRegister:b4|enARdFF_2:b6|int_q                                        ; Lost fanout        ;
+; regIFID:reg_IFID|eightBitRegister:b4|enARdFF_2:b7|int_q                                        ; Lost fanout        ;
+; eightBitRegister:pc|enARdFF_2:b0|int_q                                                         ; Lost fanout        ;
+; eightBitRegister:pc|enARdFF_2:b1|int_q                                                         ; Lost fanout        ;
+; eightBitRegister:pc|enARdFF_2:b2|int_q                                                         ; Lost fanout        ;
+; eightBitRegister:pc|enARdFF_2:b3|int_q                                                         ; Lost fanout        ;
+; eightBitRegister:pc|enARdFF_2:b4|int_q                                                         ; Lost fanout        ;
+; eightBitRegister:pc|enARdFF_2:b5|int_q                                                         ; Lost fanout        ;
+; eightBitRegister:pc|enARdFF_2:b6|int_q                                                         ; Lost fanout        ;
+; eightBitRegister:pc|enARdFF_2:b7|int_q                                                         ; Lost fanout        ;
+; Total Number of Removed Registers = 171                                                        ;                    ;
++------------------------------------------------------------------------------------------------+--------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                                                           ;
++----------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------------+
+; Register name                                                  ; Reason for Removal ; Registers Removed due to This Register                                                          ;
++----------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------------+
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b0|int_q ; Lost Fanouts       ; dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|rden_b_store, ;
+;                                                                ;                    ; eightBitRegister:readData2_inst|enARdFF_2:b0|int_q,                                             ;
+;                                                                ;                    ; regEXMEM:reg_EXMEM|regM:m|enARdFF_2:bot|int_q,                                                  ;
+;                                                                ;                    ; regEXMEM:reg_EXMEM|regM:m|enARdFF_2:mid|int_q,                                                  ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b0|int_q,                                  ;
+;                                                                ;                    ; regIDEX:reg_IDEX|regM:m|enARdFF_2:bot|int_q,                                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|regM:m|enARdFF_2:mid|int_q,                                                    ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b0|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b0|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b0|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b0|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b0|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b0|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b0|int_q                                   ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b0|int_q    ; Lost Fanouts       ; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b0|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b0|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b0|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|regEX:ex|enARdFF_2:regdst|int_q,                                               ;
+;                                                                ;                    ; eightBitRegister:pc|enARdFF_2:b0|int_q, eightBitRegister:pc|enARdFF_2:b1|int_q,                 ;
+;                                                                ;                    ; eightBitRegister:pc|enARdFF_2:b2|int_q, eightBitRegister:pc|enARdFF_2:b3|int_q,                 ;
+;                                                                ;                    ; eightBitRegister:pc|enARdFF_2:b4|int_q, eightBitRegister:pc|enARdFF_2:b5|int_q,                 ;
+;                                                                ;                    ; eightBitRegister:pc|enARdFF_2:b6|int_q                                                          ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b1|int_q ; Lost Fanouts       ; eightBitRegister:readData2_inst|enARdFF_2:b1|int_q,                                             ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b1|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b1|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b1|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b1|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b1|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b1|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b1|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b1|int_q                                   ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b2|int_q ; Lost Fanouts       ; eightBitRegister:readData2_inst|enARdFF_2:b2|int_q,                                             ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b2|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b2|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b2|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b2|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b2|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b2|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b2|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b2|int_q                                   ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b3|int_q ; Lost Fanouts       ; eightBitRegister:readData2_inst|enARdFF_2:b3|int_q,                                             ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b3|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b3|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b3|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b3|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b3|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b3|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b3|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b3|int_q                                   ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b4|int_q ; Lost Fanouts       ; eightBitRegister:readData2_inst|enARdFF_2:b4|int_q,                                             ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b4|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b4|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b4|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b4|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b4|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b4|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b4|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b4|int_q                                   ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b5|int_q ; Lost Fanouts       ; eightBitRegister:readData2_inst|enARdFF_2:b5|int_q,                                             ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b5|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b5|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b5|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b5|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b5|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b5|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b5|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b5|int_q                                   ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b6|int_q ; Lost Fanouts       ; eightBitRegister:readData2_inst|enARdFF_2:b6|int_q,                                             ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b6|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b6|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b6|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b6|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b6|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b6|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b6|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b6|int_q                                   ;
+; regMEMWB:reg_MEMWB|eightBitRegister:dataMem|enARdFF_2:b7|int_q ; Lost Fanouts       ; eightBitRegister:readData2_inst|enARdFF_2:b7|int_q,                                             ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg2|enARdFF_2:b7|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row0|enARdFF_2:b7|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row2|enARdFF_2:b7|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row3|enARdFF_2:b7|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row4|enARdFF_2:b7|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row5|enARdFF_2:b7|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row6|enARdFF_2:b7|int_q,                                  ;
+;                                                                ;                    ; registerFile:regFile|eightBitRegister:row7|enARdFF_2:b7|int_q                                   ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b0|int_q      ; Lost Fanouts       ; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b0|int_q,                               ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:addr15_0_0|enARdFF_2:b0|int_q,                                ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b0|int_q,                                  ;
+;                                                                ;                    ; regIDEX:reg_IDEX|regEX:ex|enARdFF_2:alusrc|int_q,                                               ;
+;                                                                ;                    ; regIDEX:reg_IDEX|regEX:ex|enARdFF_2:aluop2|int_q                                                ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b1|int_q    ; Lost Fanouts       ; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b1|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b1|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b1|int_q                                     ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b2|int_q    ; Lost Fanouts       ; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b2|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b2|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b2|int_q                                     ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b3|int_q    ; Lost Fanouts       ; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b3|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b3|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b3|int_q                                     ;
+; regMEMWB:reg_MEMWB|fiveBitRegister:instr|enARdFF_2:b4|int_q    ; Lost Fanouts       ; regEXMEM:reg_EXMEM|fiveBitRegister:instr|enARdFF_2:b4|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd|enARdFF_2:b4|int_q,                                    ;
+;                                                                ;                    ; regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt|enARdFF_2:b4|int_q                                     ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b1|int_q      ; Lost Fanouts       ; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b1|int_q,                               ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b1|int_q                                   ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b2|int_q      ; Lost Fanouts       ; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b2|int_q,                               ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b2|int_q                                   ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b3|int_q      ; Lost Fanouts       ; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b3|int_q,                               ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b3|int_q                                   ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b4|int_q      ; Lost Fanouts       ; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b4|int_q,                               ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b4|int_q                                   ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b5|int_q      ; Lost Fanouts       ; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b5|int_q,                               ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b5|int_q                                   ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b6|int_q      ; Lost Fanouts       ; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b6|int_q,                               ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b6|int_q                                   ;
+; eightBitRegister:reg_MEMWB_dataMemAddr|enARdFF_2:b7|int_q      ; Lost Fanouts       ; regEXMEM:reg_EXMEM|eightBitRegister:aluResult|enARdFF_2:b7|int_q,                               ;
+;                                                                ;                    ; regIDEX:reg_IDEX|eightBitRegister:readReg1|enARdFF_2:b7|int_q                                   ;
+; regMEMWB:reg_MEMWB|regWB:wb|enARdFF_2:bot|int_q                ; Lost Fanouts       ; regEXMEM:reg_EXMEM|regWB:wb|enARdFF_2:bot|int_q,                                                ;
+;                                                                ;                    ; regIDEX:reg_IDEX|regWB:wb|enARdFF_2:bot|int_q                                                   ;
+; regMEMWB:reg_MEMWB|regWB:wb|enARdFF_2:top|int_q                ; Lost Fanouts       ; regEXMEM:reg_EXMEM|regWB:wb|enARdFF_2:top|int_q,                                                ;
+;                                                                ;                    ; regIDEX:reg_IDEX|regWB:wb|enARdFF_2:top|int_q                                                   ;
+; regIFID:reg_IFID|eightBitRegister:b4|enARdFF_2:b7|int_q        ; Lost Fanouts       ; eightBitRegister:pc|enARdFF_2:b7|int_q                                                          ;
++----------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -251,18 +651,304 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------+
-; Port Connectivity Checks: "eightBitComparator:comp|oneBitComparator:comp7" ;
-+--------------+-------+----------+------------------------------------------+
-; Port         ; Type  ; Severity ; Details                                  ;
-+--------------+-------+----------+------------------------------------------+
-; i_gtprevious ; Input ; Info     ; Stuck at GND                             ;
-; i_ltprevious ; Input ; Info     ; Stuck at GND                             ;
-+--------------+-------+----------+------------------------------------------+
++----------------------------------------------------------------------------------------------------------+
+; Source assignments for instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated ;
++---------------------------------+--------------------+------+--------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                         ;
++---------------------------------+--------------------+------+--------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                          ;
++---------------------------------+--------------------+------+--------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; Source assignments for dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated ;
++---------------------------------+--------------------+------+--------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                         ;
++---------------------------------+--------------------+------+--------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                          ;
++---------------------------------+--------------------+------+--------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: instrMem:insMemory|altsyncram:altsyncram_component ;
++------------------------------------+------------------------------+-----------------------------+
+; Parameter Name                     ; Value                        ; Type                        ;
++------------------------------------+------------------------------+-----------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                            ; Untyped                     ;
+; AUTO_CARRY_CHAINS                  ; ON                           ; AUTO_CARRY                  ;
+; IGNORE_CARRY_BUFFERS               ; OFF                          ; IGNORE_CARRY                ;
+; AUTO_CASCADE_CHAINS                ; ON                           ; AUTO_CASCADE                ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                          ; IGNORE_CASCADE              ;
+; WIDTH_BYTEENA                      ; 1                            ; Untyped                     ;
+; OPERATION_MODE                     ; ROM                          ; Untyped                     ;
+; WIDTH_A                            ; 32                           ; Signed Integer              ;
+; WIDTHAD_A                          ; 8                            ; Signed Integer              ;
+; NUMWORDS_A                         ; 256                          ; Signed Integer              ;
+; OUTDATA_REG_A                      ; CLOCK0                       ; Untyped                     ;
+; ADDRESS_ACLR_A                     ; NONE                         ; Untyped                     ;
+; OUTDATA_ACLR_A                     ; NONE                         ; Untyped                     ;
+; WRCONTROL_ACLR_A                   ; NONE                         ; Untyped                     ;
+; INDATA_ACLR_A                      ; NONE                         ; Untyped                     ;
+; BYTEENA_ACLR_A                     ; NONE                         ; Untyped                     ;
+; WIDTH_B                            ; 1                            ; Untyped                     ;
+; WIDTHAD_B                          ; 1                            ; Untyped                     ;
+; NUMWORDS_B                         ; 1                            ; Untyped                     ;
+; INDATA_REG_B                       ; CLOCK1                       ; Untyped                     ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                       ; Untyped                     ;
+; RDCONTROL_REG_B                    ; CLOCK1                       ; Untyped                     ;
+; ADDRESS_REG_B                      ; CLOCK1                       ; Untyped                     ;
+; OUTDATA_REG_B                      ; UNREGISTERED                 ; Untyped                     ;
+; BYTEENA_REG_B                      ; CLOCK1                       ; Untyped                     ;
+; INDATA_ACLR_B                      ; NONE                         ; Untyped                     ;
+; WRCONTROL_ACLR_B                   ; NONE                         ; Untyped                     ;
+; ADDRESS_ACLR_B                     ; NONE                         ; Untyped                     ;
+; OUTDATA_ACLR_B                     ; NONE                         ; Untyped                     ;
+; RDCONTROL_ACLR_B                   ; NONE                         ; Untyped                     ;
+; BYTEENA_ACLR_B                     ; NONE                         ; Untyped                     ;
+; WIDTH_BYTEENA_A                    ; 1                            ; Signed Integer              ;
+; WIDTH_BYTEENA_B                    ; 1                            ; Untyped                     ;
+; RAM_BLOCK_TYPE                     ; AUTO                         ; Untyped                     ;
+; BYTE_SIZE                          ; 8                            ; Untyped                     ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                    ; Untyped                     ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ         ; Untyped                     ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ         ; Untyped                     ;
+; INIT_FILE                          ; ../MIFs/verificationTest.mif ; Untyped                     ;
+; INIT_FILE_LAYOUT                   ; PORT_A                       ; Untyped                     ;
+; MAXIMUM_DEPTH                      ; 0                            ; Untyped                     ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS                       ; Untyped                     ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL                       ; Untyped                     ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS                       ; Untyped                     ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                       ; Untyped                     ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN              ; Untyped                     ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN              ; Untyped                     ;
+; ENABLE_ECC                         ; FALSE                        ; Untyped                     ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                        ; Untyped                     ;
+; WIDTH_ECCSTATUS                    ; 3                            ; Untyped                     ;
+; DEVICE_FAMILY                      ; Cyclone IV E                 ; Untyped                     ;
+; CBXI_PARAMETER                     ; altsyncram_pua1              ; Untyped                     ;
++------------------------------------+------------------------------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: dataMem:dataMemory|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+-------------------------------------+
+; Parameter Name                     ; Value                ; Type                                ;
++------------------------------------+----------------------+-------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                             ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                      ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                             ;
+; OPERATION_MODE                     ; DUAL_PORT            ; Untyped                             ;
+; WIDTH_A                            ; 8                    ; Signed Integer                      ;
+; WIDTHAD_A                          ; 8                    ; Signed Integer                      ;
+; NUMWORDS_A                         ; 256                  ; Signed Integer                      ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                             ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                             ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                             ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                             ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                             ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                             ;
+; WIDTH_B                            ; 8                    ; Signed Integer                      ;
+; WIDTHAD_B                          ; 8                    ; Signed Integer                      ;
+; NUMWORDS_B                         ; 256                  ; Signed Integer                      ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                             ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                             ;
+; RDCONTROL_REG_B                    ; CLOCK0               ; Untyped                             ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped                             ;
+; OUTDATA_REG_B                      ; CLOCK0               ; Untyped                             ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                             ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                             ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                             ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                             ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                             ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                             ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                             ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                      ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                             ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                             ;
+; BYTE_SIZE                          ; 8                    ; Untyped                             ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                             ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                             ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                             ;
+; INIT_FILE                          ; ../MIFs/dataMem.mif  ; Untyped                             ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                             ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                             ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                             ;
+; CLOCK_ENABLE_INPUT_B               ; BYPASS               ; Untyped                             ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped                             ;
+; CLOCK_ENABLE_OUTPUT_B              ; BYPASS               ; Untyped                             ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                             ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                             ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                             ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                             ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                             ;
+; DEVICE_FAMILY                      ; Cyclone IV E         ; Untyped                             ;
+; CBXI_PARAMETER                     ; altsyncram_q4t1      ; Untyped                             ;
++------------------------------------+----------------------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                               ;
++-------------------------------------------+----------------------------------------------------+
+; Name                                      ; Value                                              ;
++-------------------------------------------+----------------------------------------------------+
+; Number of entity instances                ; 2                                                  ;
+; Entity Instance                           ; instrMem:insMemory|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; ROM                                                ;
+;     -- WIDTH_A                            ; 32                                                 ;
+;     -- NUMWORDS_A                         ; 256                                                ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                             ;
+;     -- WIDTH_B                            ; 1                                                  ;
+;     -- NUMWORDS_B                         ; 1                                                  ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                             ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                       ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                               ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                          ;
+; Entity Instance                           ; dataMem:dataMemory|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                                          ;
+;     -- WIDTH_A                            ; 8                                                  ;
+;     -- NUMWORDS_A                         ; 256                                                ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                       ;
+;     -- WIDTH_B                            ; 8                                                  ;
+;     -- NUMWORDS_B                         ; 256                                                ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                             ;
+;     -- OUTDATA_REG_B                      ; CLOCK0                                             ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                               ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                          ;
++-------------------------------------------+----------------------------------------------------+
+
+
++--------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:reg_MEMWB_dataMemAddr" ;
++--------+-------+----------+----------------------------------------+
+; Port   ; Type  ; Severity ; Details                                ;
++--------+-------+----------+----------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                           ;
++--------+-------+----------+----------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "regMEMWB:reg_MEMWB|fiveBitRegister:instr" ;
++--------+-------+----------+------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                  ;
++--------+-------+----------+------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                             ;
++--------+-------+----------+------------------------------------------+
+
+
++-------------------------------------------------------------------------+
+; Port Connectivity Checks: "regMEMWB:reg_MEMWB|eightBitRegister:dataMem" ;
++--------+-------+----------+---------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                     ;
++--------+-------+----------+---------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                                ;
++--------+-------+----------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "forwardingUnit:fUnit|fiveBitComparator:comp0_RdRt"                                        ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; o_gt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_lt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_eq[4..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "forwardingUnit:fUnit|fiveBitComparator:comp0_RdRs"                                        ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; o_gt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_lt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_eq[4..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------+
+; Port Connectivity Checks: "forwardingUnit:fUnit|eightBitComparatorZero:comp0_0" ;
++------------+-------+----------+-------------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                         ;
++------------+-------+----------+-------------------------------------------------+
+; i_ai[7..5] ; Input ; Info     ; Stuck at GND                                    ;
++------------+-------+----------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "forwardingUnit:fUnit|fiveBitComparator:comp1_RdRt"                                        ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; o_gt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_lt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_eq[4..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "forwardingUnit:fUnit|fiveBitComparator:comp1_RdRs"                                        ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; o_gt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_lt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_eq[4..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------+
+; Port Connectivity Checks: "forwardingUnit:fUnit|eightBitComparatorZero:comp1_0" ;
++------------+-------+----------+-------------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                         ;
++------------+-------+----------+-------------------------------------------------+
+; i_ai[7..5] ; Input ; Info     ; Stuck at GND                                    ;
++------------+-------+----------+-------------------------------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:readData2_inst" ;
++--------+-------+----------+---------------------------------+
+; Port   ; Type  ; Severity ; Details                         ;
++--------+-------+----------+---------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                    ;
++--------+-------+----------+---------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "regEXMEM:reg_EXMEM|fiveBitRegister:instr" ;
++--------+-------+----------+------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                  ;
++--------+-------+----------+------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                             ;
++--------+-------+----------+------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "regEXMEM:reg_EXMEM|eightBitRegister:aluResult" ;
++--------+-------+----------+-----------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                       ;
++--------+-------+----------+-----------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                                  ;
++--------+-------+----------+-----------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regEXMEM:reg_EXMEM"                                                                   ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_m[2] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "eightBitComparator:comp"                                                            ;
+; Port Connectivity Checks: "alu:exALU|eightBitComparator:comp"                                                  ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                             ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
@@ -272,7 +958,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "eightBitAddSub:addSub"                                                                    ;
+; Port Connectivity Checks: "alu:exALU|eightBitAddSub:addSub"                                                          ;
 +------------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port       ; Type   ; Severity ; Details                                                                             ;
 +------------+--------+----------+-------------------------------------------------------------------------------------+
@@ -280,12 +966,406 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:exALU"                                                                          ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; zero ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rd" ;
++--------+-------+----------+------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                  ;
++--------+-------+----------+------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                             ;
++--------+-------+----------+------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rt" ;
++--------+-------+----------+------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                  ;
++--------+-------+----------+------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                             ;
++--------+-------+----------+------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b0"                                ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b1"                                ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b2"                                ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b3"                                ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs|enARdFF_2:b4"                                ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs" ;
++--------+-------+----------+------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                  ;
++--------+-------+----------+------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                             ;
++--------+-------+----------+------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|eightBitRegister:addr15_0_0" ;
++--------+-------+----------+----------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                      ;
++--------+-------+----------+----------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                                 ;
++--------+-------+----------+----------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|eightBitRegister:addr15_0_1" ;
++--------+-------+----------+----------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                      ;
++--------+-------+----------+----------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                                 ;
++--------+-------+----------+----------------------------------------------+
+
+
++------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|eightBitRegister:readReg2" ;
++--------+-------+----------+--------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                    ;
++--------+-------+----------+--------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                               ;
++--------+-------+----------+--------------------------------------------+
+
+
++------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|eightBitRegister:readReg1" ;
++--------+-------+----------+--------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                    ;
++--------+-------+----------+--------------------------------------------+
+; i_load ; Input ; Info     ; Stuck at VCC                               ;
++--------+-------+----------+--------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|regEX:ex|enARdFF_2:alusrc"                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; i_enable ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; o_qbar   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|regEX:ex|enARdFF_2:aluop2"                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; i_enable ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; o_qbar   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|regEX:ex|enARdFF_2:aluop1"                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; i_enable ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; o_qbar   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|regEX:ex|enARdFF_2:regdst"                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; i_enable ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; o_qbar   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|regM:m|enARdFF_2:bot"                                                  ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; i_enable ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; o_qbar   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|regM:m|enARdFF_2:mid"                                                  ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; i_enable ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; o_qbar   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|regM:m|enARdFF_2:top"                                                  ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; i_enable ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; o_qbar   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|regWB:wb|enARdFF_2:bot"                                                ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; i_enable ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; o_qbar   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX|regWB:wb|enARdFF_2:top"                                                ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; i_enable ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; o_qbar   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIDEX:reg_IDEX"                                                                                 ;
++--------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port               ; Type   ; Severity ; Details                                                                             ;
++--------------------+--------+----------+-------------------------------------------------------------------------------------+
+; o_instr15_0[15..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitComparator:branchEqual|oneBitComparator:comp7" ;
++--------------+-------+----------+-------------------------------------------------+
+; Port         ; Type  ; Severity ; Details                                         ;
++--------------+-------+----------+-------------------------------------------------+
+; i_gtprevious ; Input ; Info     ; Stuck at GND                                    ;
+; i_ltprevious ; Input ; Info     ; Stuck at GND                                    ;
++--------------+-------+----------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitComparator:branchEqual"                                                           ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; o_gt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_lt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_eq[7..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitAddSub:ALU_ID"                                                                    ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; i_op       ; Input  ; Info     ; Stuck at GND                                                                        ;
+; o_zero     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_carryout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------+
+; Port Connectivity Checks: "nineBit2to1Mux:controlMux" ;
++--------+-------+----------+---------------------------+
+; Port   ; Type  ; Severity ; Details                   ;
++--------+-------+----------+---------------------------+
+; input1 ; Input ; Info     ; Stuck at GND              ;
++--------+-------+----------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "controlLogicUnit:control"                                                                     ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port           ; Type   ; Severity ; Details                                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; branchnotequal ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; jump           ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hazardDetectionUnit:hazard|fiveBitComparator:comp2"                                       ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; o_gt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_lt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_eq[4..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hazardDetectionUnit:hazard|fiveBitComparator:comp1|oneBitComparator:comp4" ;
++--------------+-------+----------+---------------------------------------------------------------------+
+; Port         ; Type  ; Severity ; Details                                                             ;
++--------------+-------+----------+---------------------------------------------------------------------+
+; i_gtprevious ; Input ; Info     ; Stuck at GND                                                        ;
+; i_ltprevious ; Input ; Info     ; Stuck at GND                                                        ;
++--------------+-------+----------+---------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hazardDetectionUnit:hazard|fiveBitComparator:comp1"                                       ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; o_gt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_lt       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_eq[4..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regIFID:reg_IFID"                                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port           ; Type   ; Severity ; Details                                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; o_value[31..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitAddSub:pcPlus4"                                                                   ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; i_bi[7..3] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; i_bi[1..0] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; i_bi[2]    ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; i_op       ; Input  ; Info     ; Stuck at GND                                                                        ;
+; o_zero     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; o_carryout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b0"                                                     ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b1"                                                     ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b2"                                                     ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b3"                                                     ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b4"                                                     ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b5"                                                     ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b6"                                                     ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "eightBitRegister:pc|enARdFF_2:b7"                                                     ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; o_qbar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +-------------------------------+
 ; Elapsed Time Per Partition    ;
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -295,9 +1375,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Jul 13 15:33:52 2023
+    Info: Processing started: Tue Jul 18 03:06:40 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab3 -c lab3
 Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file work/ninebitregister.vhd
+    Info (12022): Found design unit 1: nineBitRegister-rtl
+    Info (12023): Found entity 1: nineBitRegister
 Info (12021): Found 2 design units, including 1 entities, in source file work/threebit2to1mux.vhd
     Info (12022): Found design unit 1: threeBit2to1Mux-struct
     Info (12023): Found entity 1: threeBit2to1Mux
@@ -418,27 +1501,281 @@ Info (12021): Found 2 design units, including 1 entities, in source file imports
 Info (12021): Found 2 design units, including 1 entities, in source file imports/counter.vhd
     Info (12022): Found design unit 1: counter-rtl
     Info (12023): Found entity 1: counter
-Info (12127): Elaborating entity "alu" for the top level hierarchy
+Info (12021): Found 2 design units, including 1 entities, in source file work/forwardingunit.vhd
+    Info (12022): Found design unit 1: forwardingUnit-rtl
+    Info (12023): Found entity 1: forwardingUnit
+Info (12021): Found 2 design units, including 1 entities, in source file work/eightbitcomparatorzero.vhd
+    Info (12022): Found design unit 1: eightBitComparatorZero-rtl
+    Info (12023): Found entity 1: eightBitComparatorZero
+Info (12021): Found 2 design units, including 1 entities, in source file work/regifid.vhd
+    Info (12022): Found design unit 1: regIFID-rtl
+    Info (12023): Found entity 1: regIFID
+Info (12021): Found 2 design units, including 1 entities, in source file work/regidex.vhd
+    Info (12022): Found design unit 1: regIDEX-rtl
+    Info (12023): Found entity 1: regIDEX
+Info (12021): Found 2 design units, including 1 entities, in source file work/regwb.vhd
+    Info (12022): Found design unit 1: regWB-rtl
+    Info (12023): Found entity 1: regWB
+Info (12021): Found 2 design units, including 1 entities, in source file work/regm.vhd
+    Info (12022): Found design unit 1: regM-rtl
+    Info (12023): Found entity 1: regM
+Info (12021): Found 2 design units, including 1 entities, in source file work/regex.vhd
+    Info (12022): Found design unit 1: regEX-rtl
+    Info (12023): Found entity 1: regEX
+Info (12021): Found 2 design units, including 1 entities, in source file work/fivebitregister.vhd
+    Info (12022): Found design unit 1: fiveBitRegister-rtl
+    Info (12023): Found entity 1: fiveBitRegister
+Info (12021): Found 2 design units, including 1 entities, in source file work/regexmem.vhd
+    Info (12022): Found design unit 1: regEXMEM-rtl
+    Info (12023): Found entity 1: regEXMEM
+Info (12021): Found 2 design units, including 1 entities, in source file work/regmemwb.vhd
+    Info (12022): Found design unit 1: regMEMWB-rtl
+    Info (12023): Found entity 1: regMEMWB
+Info (12021): Found 2 design units, including 1 entities, in source file work/hazarddetectionunit.vhd
+    Info (12022): Found design unit 1: hazardDetectionUnit-rtl
+    Info (12023): Found entity 1: hazardDetectionUnit
+Info (12021): Found 2 design units, including 1 entities, in source file work/pipeline.vhd
+    Info (12022): Found design unit 1: pipeline-rtl
+    Info (12023): Found entity 1: pipeline
+Info (12021): Found 2 design units, including 1 entities, in source file work/ninebit2to1mux.vhd
+    Info (12022): Found design unit 1: nineBit2to1Mux-struct
+    Info (12023): Found entity 1: nineBit2to1Mux
+Info (12021): Found 2 design units, including 1 entities, in source file work/eightbit3to1mux.vhd
+    Info (12022): Found design unit 1: eightBit3to1Mux-struct
+    Info (12023): Found entity 1: eightBit3to1Mux
+Info (12021): Found 2 design units, including 1 entities, in source file work/onebit3to1mux.vhd
+    Info (12022): Found design unit 1: oneBit3to1Mux-struct
+    Info (12023): Found entity 1: oneBit3to1Mux
+Info (12021): Found 2 design units, including 1 entities, in source file work/fivebit2to1mux.vhd
+    Info (12022): Found design unit 1: fiveBit2to1Mux-struct
+    Info (12023): Found entity 1: fiveBit2to1Mux
+Info (12021): Found 2 design units, including 1 entities, in source file work/fivebitcomparator.vhd
+    Info (12022): Found design unit 1: fiveBitComparator-rtl
+    Info (12023): Found entity 1: fiveBitComparator
+Info (12127): Elaborating entity "pipeline" for the top level hierarchy
+Warning (10541): VHDL Signal Declaration warning at pipeline.vhd(10): used implicit default value for signal "MuxOut" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at pipeline.vhd(11): used implicit default value for signal "InstructionOut" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at pipeline.vhd(13): used implicit default value for signal "BranchOut" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at pipeline.vhd(13): used implicit default value for signal "ZeroOut" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at pipeline.vhd(13): used implicit default value for signal "MemWriteOut" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at pipeline.vhd(13): used implicit default value for signal "RegWriteOut" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10036): Verilog HDL or VHDL warning at pipeline.vhd(285): object "pc4_zero" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at pipeline.vhd(285): object "pc4_cOut" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at pipeline.vhd(299): object "sig_aluIDCout" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at pipeline.vhd(300): object "sig_aluIDZero" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at pipeline.vhd(308): object "sig_BNE" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at pipeline.vhd(308): object "sig_Jump" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at pipeline.vhd(323): object "sig_regFileCompGT" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at pipeline.vhd(323): object "sig_regFileCompLT" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at pipeline.vhd(345): object "sig_ALUZero" assigned a value but never read
+Info (12128): Elaborating entity "eightBitRegister" for hierarchy "eightBitRegister:pc"
+Warning (10036): Verilog HDL or VHDL warning at eightBitRegister.vhd(40): object "int_notValue" assigned a value but never read
+Info (12128): Elaborating entity "enARdFF_2" for hierarchy "eightBitRegister:pc|enARdFF_2:b7"
+Info (12128): Elaborating entity "instrMem" for hierarchy "instrMem:insMemory"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "instrMem:insMemory|altsyncram:altsyncram_component"
+Info (12130): Elaborated megafunction instantiation "instrMem:insMemory|altsyncram:altsyncram_component"
+Info (12133): Instantiated megafunction "instrMem:insMemory|altsyncram:altsyncram_component" with the following parameter:
+    Info (12134): Parameter "address_aclr_a" = "NONE"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "../MIFs/verificationTest.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "256"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "widthad_a" = "8"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_pua1.tdf
+    Info (12023): Found entity 1: altsyncram_pua1
+Info (12128): Elaborating entity "altsyncram_pua1" for hierarchy "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated"
+Info (12128): Elaborating entity "eightBitAddSub" for hierarchy "eightBitAddSub:pcPlus4"
+Info (12128): Elaborating entity "oneBitAdder" for hierarchy "eightBitAddSub:pcPlus4|oneBitAdder:add7"
+Info (12128): Elaborating entity "eightBit2to1Mux" for hierarchy "eightBit2to1Mux:PCMux"
+Info (12128): Elaborating entity "oneBit2to1Mux" for hierarchy "eightBit2to1Mux:PCMux|oneBit2to1Mux:mux0"
+Info (12128): Elaborating entity "regIFID" for hierarchy "regIFID:reg_IFID"
+Info (12128): Elaborating entity "hazardDetectionUnit" for hierarchy "hazardDetectionUnit:hazard"
+Warning (10036): Verilog HDL or VHDL warning at hazardDetectionUnit.vhd(27): object "sig_GT1" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at hazardDetectionUnit.vhd(27): object "sig_LT1" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at hazardDetectionUnit.vhd(28): object "sig_GT0" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at hazardDetectionUnit.vhd(28): object "sig_LT0" assigned a value but never read
+Info (12128): Elaborating entity "fiveBitComparator" for hierarchy "hazardDetectionUnit:hazard|fiveBitComparator:comp1"
+Info (12128): Elaborating entity "oneBitComparator" for hierarchy "hazardDetectionUnit:hazard|fiveBitComparator:comp1|oneBitComparator:comp4"
+Info (12128): Elaborating entity "controlLogicUnit" for hierarchy "controlLogicUnit:control"
+Info (12128): Elaborating entity "nineBit2to1Mux" for hierarchy "nineBit2to1Mux:controlMux"
+Info (12128): Elaborating entity "shiftLeft2_eightBits" for hierarchy "shiftLeft2_eightBits:shift2_ID"
+Info (12128): Elaborating entity "registerFile" for hierarchy "registerFile:regFile"
+Info (12128): Elaborating entity "three_to_eight_decoder" for hierarchy "registerFile:regFile|three_to_eight_decoder:decoder"
+Info (12128): Elaborating entity "eightBit8to1Mux" for hierarchy "registerFile:regFile|eightBit8to1Mux:mux_readData1"
+Info (12128): Elaborating entity "oneBit8to1Mux" for hierarchy "registerFile:regFile|eightBit8to1Mux:mux_readData1|oneBit8to1Mux:mux7"
+Info (12128): Elaborating entity "eightBitComparator" for hierarchy "eightBitComparator:branchEqual"
+Info (12128): Elaborating entity "regIDEX" for hierarchy "regIDEX:reg_IDEX"
+Info (12128): Elaborating entity "regWB" for hierarchy "regIDEX:reg_IDEX|regWB:wb"
+Warning (10036): Verilog HDL or VHDL warning at regWB.vhd(13): object "int_notValue" assigned a value but never read
+Info (12128): Elaborating entity "regM" for hierarchy "regIDEX:reg_IDEX|regM:m"
+Warning (10036): Verilog HDL or VHDL warning at regM.vhd(13): object "int_notValue" assigned a value but never read
+Info (12128): Elaborating entity "regEX" for hierarchy "regIDEX:reg_IDEX|regEX:ex"
+Warning (10036): Verilog HDL or VHDL warning at regEX.vhd(13): object "int_notValue" assigned a value but never read
+Info (12128): Elaborating entity "fiveBitRegister" for hierarchy "regIDEX:reg_IDEX|fiveBitRegister:IFID_Rs"
+Warning (10036): Verilog HDL or VHDL warning at fiveBitRegister.vhd(13): object "int_notValue" assigned a value but never read
+Info (12128): Elaborating entity "eightBit3to1Mux" for hierarchy "eightBit3to1Mux:aluIN1"
+Info (12128): Elaborating entity "oneBit3to1Mux" for hierarchy "eightBit3to1Mux:aluIN1|oneBit3to1Mux:mux0"
+Info (12128): Elaborating entity "alu" for hierarchy "alu:exALU"
 Warning (10036): Verilog HDL or VHDL warning at alu.vhd(45): object "sig_GT" assigned a value but never read
 Warning (10036): Verilog HDL or VHDL warning at alu.vhd(45): object "sig_EQ" assigned a value but never read
 Warning (10036): Verilog HDL or VHDL warning at alu.vhd(46): object "sig_CarryOut" assigned a value but never read
-Info (12128): Elaborating entity "eightBitAddSub" for hierarchy "eightBitAddSub:addSub"
-Info (12128): Elaborating entity "oneBitAdder" for hierarchy "eightBitAddSub:addSub|oneBitAdder:add7"
-Info (12128): Elaborating entity "eightBitComparator" for hierarchy "eightBitComparator:comp"
-Info (12128): Elaborating entity "oneBitComparator" for hierarchy "eightBitComparator:comp|oneBitComparator:comp7"
-Info (12128): Elaborating entity "eightBit5to1Mux" for hierarchy "eightBit5to1Mux:mux"
-Info (12128): Elaborating entity "oneBit5to1Mux" for hierarchy "eightBit5to1Mux:mux|oneBit5to1Mux:mux7"
-Info (286030): Timing-Driven Synthesis is running
+Info (12128): Elaborating entity "eightBit5to1Mux" for hierarchy "alu:exALU|eightBit5to1Mux:mux"
+Info (12128): Elaborating entity "oneBit5to1Mux" for hierarchy "alu:exALU|eightBit5to1Mux:mux|oneBit5to1Mux:mux7"
+Info (12128): Elaborating entity "ALUControlUnit" for hierarchy "ALUControlUnit:aluCtrl"
+Info (12128): Elaborating entity "fiveBit2to1Mux" for hierarchy "fiveBit2to1Mux:regDstMux"
+Info (12128): Elaborating entity "regEXMEM" for hierarchy "regEXMEM:reg_EXMEM"
+Info (12128): Elaborating entity "forwardingUnit" for hierarchy "forwardingUnit:fUnit"
+Warning (10036): Verilog HDL or VHDL warning at forwardingUnit.vhd(36): object "sig_GT1" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at forwardingUnit.vhd(36): object "sig_LT1" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at forwardingUnit.vhd(36): object "sig_GT1_2" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at forwardingUnit.vhd(36): object "sig_LT1_2" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at forwardingUnit.vhd(37): object "sig_GT0" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at forwardingUnit.vhd(37): object "sig_LT0" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at forwardingUnit.vhd(37): object "sig_GT0_2" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at forwardingUnit.vhd(37): object "sig_LT0_2" assigned a value but never read
+Info (12128): Elaborating entity "eightBitComparatorZero" for hierarchy "forwardingUnit:fUnit|eightBitComparatorZero:comp1_0"
+Info (12128): Elaborating entity "dataMem" for hierarchy "dataMem:dataMemory"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "dataMem:dataMemory|altsyncram:altsyncram_component"
+Info (12130): Elaborated megafunction instantiation "dataMem:dataMemory|altsyncram:altsyncram_component"
+Info (12133): Instantiated megafunction "dataMem:dataMemory|altsyncram:altsyncram_component" with the following parameter:
+    Info (12134): Parameter "address_aclr_b" = "NONE"
+    Info (12134): Parameter "address_reg_b" = "CLOCK0"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_input_b" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_b" = "BYPASS"
+    Info (12134): Parameter "init_file" = "../MIFs/dataMem.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "256"
+    Info (12134): Parameter "numwords_b" = "256"
+    Info (12134): Parameter "operation_mode" = "DUAL_PORT"
+    Info (12134): Parameter "outdata_aclr_b" = "NONE"
+    Info (12134): Parameter "outdata_reg_b" = "CLOCK0"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "rdcontrol_reg_b" = "CLOCK0"
+    Info (12134): Parameter "read_during_write_mode_mixed_ports" = "DONT_CARE"
+    Info (12134): Parameter "widthad_a" = "8"
+    Info (12134): Parameter "widthad_b" = "8"
+    Info (12134): Parameter "width_a" = "8"
+    Info (12134): Parameter "width_b" = "8"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_q4t1.tdf
+    Info (12023): Found entity 1: altsyncram_q4t1
+Info (12128): Elaborating entity "altsyncram_q4t1" for hierarchy "dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated"
+Info (12128): Elaborating entity "regMEMWB" for hierarchy "regMEMWB:reg_MEMWB"
+Warning (14284): Synthesized away the following node(s):
+    Warning (14285): Synthesized away the following RAM node(s):
+        Warning (14320): Synthesized away node "dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|q_b[0]"
+        Warning (14320): Synthesized away node "dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|q_b[1]"
+        Warning (14320): Synthesized away node "dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|q_b[2]"
+        Warning (14320): Synthesized away node "dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|q_b[3]"
+        Warning (14320): Synthesized away node "dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|q_b[4]"
+        Warning (14320): Synthesized away node "dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|q_b[5]"
+        Warning (14320): Synthesized away node "dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|q_b[6]"
+        Warning (14320): Synthesized away node "dataMem:dataMemory|altsyncram:altsyncram_component|altsyncram_q4t1:auto_generated|q_b[7]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[0]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[1]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[2]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[3]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[4]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[5]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[6]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[7]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[11]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[12]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[13]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[14]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[15]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[16]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[17]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[18]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[19]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[20]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[21]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[22]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[23]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[24]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[25]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[26]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[27]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[28]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[29]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[30]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[31]"
+Warning (14284): Synthesized away the following node(s):
+    Warning (14285): Synthesized away the following RAM node(s):
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[8]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[9]"
+        Warning (14320): Synthesized away node "instrMem:insMemory|altsyncram:altsyncram_component|altsyncram_pua1:auto_generated|q_a[10]"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "MuxOut[0]" is stuck at GND
+    Warning (13410): Pin "MuxOut[1]" is stuck at GND
+    Warning (13410): Pin "MuxOut[2]" is stuck at GND
+    Warning (13410): Pin "MuxOut[3]" is stuck at GND
+    Warning (13410): Pin "MuxOut[4]" is stuck at GND
+    Warning (13410): Pin "MuxOut[5]" is stuck at GND
+    Warning (13410): Pin "MuxOut[6]" is stuck at GND
+    Warning (13410): Pin "MuxOut[7]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[0]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[1]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[2]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[3]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[4]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[5]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[6]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[7]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[8]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[9]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[10]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[11]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[12]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[13]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[14]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[15]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[16]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[17]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[18]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[19]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[20]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[21]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[22]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[23]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[24]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[25]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[26]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[27]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[28]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[29]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[30]" is stuck at GND
+    Warning (13410): Pin "InstructionOut[31]" is stuck at GND
+    Warning (13410): Pin "BranchOut" is stuck at GND
+    Warning (13410): Pin "ZeroOut" is stuck at GND
+    Warning (13410): Pin "MemWriteOut" is stuck at GND
+    Warning (13410): Pin "RegWriteOut" is stuck at GND
+Info (17049): 171 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 83 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 19 input pins
-    Info (21059): Implemented 9 output pins
-    Info (21061): Implemented 55 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4632 megabytes
-    Info: Processing ended: Thu Jul 13 15:33:55 2023
-    Info: Elapsed time: 00:00:03
+Warning (21074): Design contains 5 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "GClock"
+    Warning (15610): No output dependent on input pin "GReset"
+    Warning (15610): No output dependent on input pin "ValueSelect[0]"
+    Warning (15610): No output dependent on input pin "ValueSelect[1]"
+    Warning (15610): No output dependent on input pin "ValueSelect[2]"
+Info (21057): Implemented 49 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 5 input pins
+    Info (21059): Implemented 44 output pins
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 131 warnings
+    Info: Peak virtual memory: 4651 megabytes
+    Info: Processing ended: Tue Jul 18 03:06:42 2023
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -3,62 +3,44 @@ USE ieee.std_logic_1164.ALL;
 
 ENTITY regWB IS
 	PORT(
-		i_resetBar, i_IFIDWrite	: IN	STD_LOGIC;
+		i_resetBar		: IN	STD_LOGIC;
 		i_clock			: IN	STD_LOGIC;
-		i_Value			: IN	STD_LOGIC_VECTOR(39 downto 0);
-		o_Value			: OUT	STD_LOGIC_VECTOR(39 downto 0));
+		i_regWrite, i_MemtoReg : IN STD_LOGIC; 
+		o_regWrite, o_MemtoReg : OUT STD_LOGIC);
 END regWB;
 
-ARCHITECTURE rtl OF regIDEX IS
-	SIGNAL int_Value, int_notValue : STD_LOGIC_VECTOR(39 downto 0);
+ARCHITECTURE rtl OF regWB IS
+	SIGNAL int_Value, int_notValue : STD_LOGIC_VECTOR(1 downto 0);
 
-	COMPONENT eightBitRegister
+	COMPONENT enARdFF_2 
 		PORT(
-			i_resetBar, i_enable	: IN	STD_LOGIC;
-			i_clock			: IN	STD_LOGIC;
-			i_Value			: IN	STD_LOGIC_VECTOR(7 downto 0);
-			o_Value			: OUT	STD_LOGIC_VECTOR(7 downto 0));
-	END COMPONENT;
+			i_resetBar	: IN	STD_LOGIC;
+			i_d		: IN	STD_LOGIC;
+			i_enable	: IN	STD_LOGIC;
+			i_clock		: IN	STD_LOGIC;
+			o_q, o_qBar	: OUT	STD_LOGIC);
+	END component;
 
 BEGIN
 
---msb: b4
-b4: eightBitRegister
+top: enARdFF_2
 	PORT MAP (i_resetBar => i_resetBar,
-			  i_Value => i_Value(39 downto 32), 
-			  i_enable => i_IFIDWrite,
+			  i_d => i_regWrite,
+			  i_enable => '1', 
 			  i_clock => i_clock,
-			  o_Value => int_Value(39 downto 32));
-			  
-b3: eightBitRegister
-	PORT MAP (i_resetBar => i_resetBar,
-			  i_Value => i_Value(31 downto 24), 
-			  i_enable => i_IFIDWrite,
-			  i_clock => i_clock,
-			  o_Value => int_Value(31 downto 24));
-				 
-b2: eightBitRegister
-	PORT MAP (i_resetBar => i_resetBar,
-			  i_Value => i_Value(23 downto 16), 
-			  i_enable => i_IFIDWrite,
-			  i_clock => i_clock,
-			  o_Value => int_Value(23 downto 16));				 	 
-				 
-b1: eightBitRegister
-	PORT MAP (i_resetBar => i_resetBar,
-			  i_Value => i_Value(15 downto 8), 
-			  i_enable => i_IFIDWrite,
-			  i_clock => i_clock,
-			  o_Value => int_Value(15 downto 8));	
+			  o_q => int_Value(1),
+	        o_qBar => int_notValue(1));
 
-b0: eightBitRegister
+bot: enARdFF_2
 	PORT MAP (i_resetBar => i_resetBar,
-			  i_Value => i_Value(7 downto 0), 
-			  i_enable => i_IFIDWrite,
+			  i_d => i_MemtoReg, 
+			  i_enable => '1',
 			  i_clock => i_clock,
-			  o_Value => int_Value(7 downto 0));				  
+			  o_q => int_Value(0),
+	        o_qBar => int_notValue(0));		  
 				 
 	-- Output Driver
-	o_Value		<= int_Value;
+	o_RegWrite <= int_Value(1);
+	o_MemtoReg <= int_Value(0);
 
 END rtl;

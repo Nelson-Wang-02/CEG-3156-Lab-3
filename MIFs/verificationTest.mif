@@ -1,7 +1,7 @@
 DEPTH = 256;
 WIDTH = 32;
 ADDRESS_RADIX = HEX;
-DATA_RADIX = BIN;
+DATA_RADIX = HEX;
 CONTENT
 BEGIN
 -- Use no operations (nop) for default instructions
