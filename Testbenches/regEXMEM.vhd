@@ -1,0 +1,104 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY regEXMEM IS
+	PORT(
+		i_resetBar		: IN	STD_LOGIC;
+		i_clock			: IN	STD_LOGIC;
+		i_WB		: IN STD_LOGIC_VECTOR(1 downto 0); --regWrite, MemtoReg
+		i_M		: IN STD_LOGIC_VECTOR(2 downto 0); --Branch, MemRead, MemWrite
+		
+		i_ALUResult 	: IN STD_LOGIC_VECTOR(7 downto 0); 
+		i_instr	: IN STD_LOGIC_VECTOR(4 downto 0); 
+		
+		o_WB		: OUT STD_LOGIC_VECTOR(1 downto 0); --regWrite, MemtoReg
+		o_M		: OUT STD_LOGIC_VECTOR(2 downto 0); --Branch, MemRead, MemWrite
+		o_ALUResult		: OUT	STD_LOGIC_VECTOR(7 downto 0);
+		o_instr	: OUT STD_LOGIC_VECTOR(4 downto 0));
+
+		
+END regEXMEM;
+
+ARCHITECTURE rtl OF regEXMEM IS
+	SIGNAL sig_WB : STD_LOGIC_VECTOR(1 downto 0);
+	SIGNAL sig_M : STD_LOGIC_VECTOR(2 downto 0);
+	SIGNAL sig_ALUResult	: STD_LOGIC_VECTOR(7 downto 0);
+	SIGNAL sig_instr	: STD_LOGIC_VECTOR(4 downto 0); 
+
+	COMPONENT eightBitRegister
+		PORT(
+			i_resetBar, i_load	: IN	STD_LOGIC;
+			i_clock			: IN	STD_LOGIC;
+			i_Value			: IN	STD_LOGIC_VECTOR(7 downto 0);
+			o_Value			: OUT	STD_LOGIC_VECTOR(7 downto 0));
+	END COMPONENT;
+	
+	component fiveBitRegister 
+		PORT(
+			i_resetBar, i_load	: IN	STD_LOGIC;
+			i_clock			: IN	STD_LOGIC;
+			i_Value			: IN	STD_LOGIC_VECTOR(4 downto 0);
+			o_Value			: OUT	STD_LOGIC_VECTOR(4 downto 0));
+	END component;
+	
+	COMPONENT regWB
+		PORT(
+		
+			i_resetBar		: IN	STD_LOGIC;
+			i_clock			: IN	STD_LOGIC;
+			i_regWrite, i_MemtoReg : IN STD_LOGIC; 
+			o_regWrite, o_MemtoReg : OUT STD_LOGIC);
+	END component;
+	
+	COMPONENT regM 
+		PORT(
+			i_resetBar		: IN	STD_LOGIC;
+			i_clock			: IN	STD_LOGIC;
+			i_Branch, i_MemRead, i_MemWrite : IN STD_LOGIC; 
+			o_Branch, o_MemRead, o_MemWrite : OUT STD_LOGIC);
+	END component;	
+	
+BEGIN
+
+wb: regWB
+		PORT MAP(
+			i_resetBar	=> i_resetBar,
+			i_clock		=> i_clock,
+			i_regWrite	=> i_WB(1),
+			i_MemtoReg 	=> i_WB(0),
+			o_regWrite	=> sig_WB(1),
+			o_MemtoReg 	=> sig_WB(0));	
+			
+m: regM 
+		PORT MAP(
+			i_resetBar => i_resetBar,
+			i_clock	=> i_clock,
+			i_Branch => i_M(2), 
+			i_MemRead => i_M(1), 
+			i_MemWrite => i_M(0),
+			o_Branch => sig_M(2), 
+			o_MemRead => sig_M(1), 
+			o_MemWrite => sig_M(0));	
+		
+aluResult: eightBitRegister
+	PORT MAP (i_resetBar => i_resetBar,
+				  i_load => '1',
+			  i_Value => i_ALUResult, 
+			  i_clock => i_clock,
+			  o_Value => sig_ALUResult);
+
+instr: fiveBitRegister 
+		PORT MAP(
+			i_resetBar => i_resetBar, 
+			i_load	=> '1',
+			i_clock	=> i_clock,
+			i_Value	=> i_instr,
+			o_Value	=> sig_instr);
+			
+	-- Output Driver
+		o_WB		<= sig_WB;
+		o_M		<= sig_M;
+		o_ALUResult <= sig_ALUResult;
+		o_instr <= sig_instr; 
+
+END rtl;

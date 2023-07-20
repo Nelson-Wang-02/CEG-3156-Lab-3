@@ -1,0 +1,2074 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Ealu
+Z0 w1688408673
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dD:\1-Quartus_Projects\CEG-3156\CEG-3156-Lab-3\Testbenches
+Z4 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/alu.vhd
+Z5 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/alu.vhd
+l0
+L4
+VZgJZ;JU@H;<AI;^1:@a9]3
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1689831020.117000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/alu.vhd|
+Z9 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/alu.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 2PzlmMl17CAaUE`Z]X5XA1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 3 alu 0 22 ZgJZ;JU@H;<AI;^1:@a9]3
+l50
+L13
+VCBEBOYHXSeOg9:;YIe9UE1
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 KjcMnSMG=TdIfFTDfmA<i2
+!i10b 1
+Ealucontrolunit
+Z12 w1688408673
+R1
+R2
+R3
+Z13 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ALUControlUnit.vhd
+Z14 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ALUControlUnit.vhd
+l0
+L4
+VE@lKGk4zV1SK07kKS3J1[1
+R6
+32
+Z15 !s108 1689831020.269000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ALUControlUnit.vhd|
+Z17 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ALUControlUnit.vhd|
+R10
+R11
+!s100 ]RDdLJAU9NX01^A29z=a93
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 14 alucontrolunit 0 22 E@lKGk4zV1SK07kKS3J1[1
+l15
+L11
+V:@OgUN=AnNiT4DO?DXN9Q1
+R6
+32
+R15
+R16
+R17
+R10
+R11
+!s100 JQ92bjdaVGTF:EK[C<;G63
+!i10b 1
+Econtrollogicunit
+Z18 w1688417322
+R1
+R2
+R3
+Z19 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/controlLogicUnit.vhd
+Z20 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/controlLogicUnit.vhd
+l0
+L4
+V7G7IGgUnV7`ggS]0;7kFO3
+R6
+32
+Z21 !s108 1689831020.386000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/controlLogicUnit.vhd|
+Z23 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/controlLogicUnit.vhd|
+R10
+R11
+!s100 Ue4oSEA_;miXTF>nX=lS_1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 16 controllogicunit 0 22 7G7IGgUnV7`ggS]0;7kFO3
+l24
+L18
+VH;;_0zBhC6JK`VDgT1hQ62
+R6
+32
+R21
+R22
+R23
+R10
+R11
+!s100 cXI?d1jV8]XJ^Ad3VN]>61
+!i10b 1
+Ecounter
+R12
+R1
+R2
+R3
+Z24 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/counter.vhd
+Z25 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/counter.vhd
+l0
+L31
+Vjh<AJY=Z^k>AB=g6gY28P1
+R6
+32
+Z26 !s108 1689831027.001000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/counter.vhd|
+Z28 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/counter.vhd|
+R10
+R11
+!s100 SIGINWVeT?l>oLO?M0Dnh1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 7 counter 0 22 jh<AJY=Z^k>AB=g6gY28P1
+l51
+L38
+VmGHdemj3Fi9C;^=U9ho4g1
+R6
+32
+R26
+R27
+R28
+R10
+R11
+!s100 I7fe92[nC3DX=5JaDzdz82
+!i10b 1
+Edatamem
+Z29 w1689276805
+R1
+R2
+R3
+Z30 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dataMem.vhd
+Z31 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dataMem.vhd
+l0
+L42
+V]kZO[Kk`S;F_::5?LSM:W3
+R6
+32
+Z32 !s108 1689831020.545000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dataMem.vhd|
+Z34 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dataMem.vhd|
+R10
+R11
+!s100 C56D:k=82i?Jd:R?]^=<n2
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 7 datamem 0 22 ]kZO[Kk`S;F_::5?LSM:W3
+l97
+L56
+VCk9<8[j`EX]eI0IciKdP@0
+R6
+32
+R32
+R33
+R34
+R10
+R11
+!s100 YUlME4GNW@h7bNe6CnP^g3
+!i10b 1
+Edff_2
+R12
+R1
+R2
+R3
+Z35 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dFF_2.vhd
+Z36 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dFF_2.vhd
+l0
+L31
+VmU6=]RL[DRb3B>U3nj:PT2
+R6
+32
+Z37 !s108 1689831027.160000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dFF_2.vhd|
+Z39 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dFF_2.vhd|
+R10
+R11
+!s100 @7UQdBb?9[KZkRP6ELJ8M3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 5 dff_2 0 22 mU6=]RL[DRb3B>U3nj:PT2
+l41
+L38
+VmN<6RhX:dFgZ=<YJQ9FoK2
+R6
+32
+R37
+R38
+R39
+R10
+R11
+!s100 AYd<G@?02=8;c=`Rj=U5[1
+!i10b 1
+Eeightbit2to1mux
+R12
+R1
+R2
+R3
+Z40 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit2to1Mux.vhd
+Z41 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit2to1Mux.vhd
+l0
+L4
+VhINiiS;bkX;H:>@WZb>Y83
+R6
+32
+Z42 !s108 1689831020.694000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit2to1Mux.vhd|
+Z44 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit2to1Mux.vhd|
+R10
+R11
+!s100 1dCWm83^3gU@DabCKG6822
+!i10b 1
+Astruct
+R1
+R2
+DEx4 work 15 eightbit2to1mux 0 22 hINiiS;bkX;H:>@WZb>Y83
+l23
+L12
+VfVD:IWBVL2bag0W>m6i^i1
+R6
+32
+R42
+R43
+R44
+R10
+R11
+!s100 iM96e28U1fbWz9II<M6?@3
+!i10b 1
+Eeightbit3to1mux
+Z45 w1689662334
+R1
+R2
+R3
+Z46 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit3to1Mux.vhd
+Z47 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit3to1Mux.vhd
+l0
+L4
+VP:d2gD]nMhGRO>78iIgTK0
+R6
+32
+Z48 !s108 1689831020.819000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit3to1Mux.vhd|
+Z50 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit3to1Mux.vhd|
+R10
+R11
+!s100 GboX4U:da2Tja0MF7@4=V3
+!i10b 1
+Astruct
+R1
+R2
+DEx4 work 15 eightbit3to1mux 0 22 P:d2gD]nMhGRO>78iIgTK0
+l23
+L12
+V0<dXZ3d6J5_gK6VSeT;3l0
+R6
+32
+R48
+R49
+R50
+R10
+R11
+!s100 XzgV[T67F2`JD9_X=H>kQ0
+!i10b 1
+Eeightbit5to1mux
+R12
+R1
+R2
+R3
+Z51 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit5to1Mux.vhd
+Z52 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit5to1Mux.vhd
+l0
+L4
+V<63HMnb_N`9UFkfH<zXj61
+R6
+32
+Z53 !s108 1689831020.960000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit5to1Mux.vhd|
+Z55 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit5to1Mux.vhd|
+R10
+R11
+!s100 lf4dQ1R07V5O=A63AZId61
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 15 eightbit5to1mux 0 22 <63HMnb_N`9UFkfH<zXj61
+l30
+L18
+VobKnbDUDJk<HIhJd?@IIO3
+R6
+32
+R53
+R54
+R55
+R10
+R11
+!s100 doV]zb@`]eUNfP_jK]5I13
+!i10b 1
+Eeightbit6to1mux
+Z56 w1688438946
+R1
+R2
+R3
+Z57 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit6to1Mux.vhd
+Z58 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit6to1Mux.vhd
+l0
+L4
+VKM_?idGSMP<B<KH;md<KT0
+R6
+32
+Z59 !s108 1689831021.109000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit6to1Mux.vhd|
+Z61 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit6to1Mux.vhd|
+R10
+R11
+!s100 0MDHK]9zgNHYe[jm3UneW2
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 15 eightbit6to1mux 0 22 KM_?idGSMP<B<KH;md<KT0
+l31
+L19
+VQ1J8bPR=JkQ=?_U0]cRHV1
+R6
+32
+R59
+R60
+R61
+R10
+R11
+!s100 WX:22TYXKO^89mJ1c?NUe0
+!i10b 1
+Eeightbit8to1mux
+R12
+R1
+R2
+R3
+Z62 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit8to1Mux.vhd
+Z63 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit8to1Mux.vhd
+l0
+L4
+V1?G3D`@8:K1>5Y?>5V:al1
+R6
+32
+Z64 !s108 1689831021.303000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit8to1Mux.vhd|
+Z66 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit8to1Mux.vhd|
+R10
+R11
+!s100 4HZ3`_ZNLGWGXn:3DGhzD2
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 15 eightbit8to1mux 0 22 1?G3D`@8:K1>5Y?>5V:al1
+l33
+L21
+VoLm8><0eVKGb0Mg4a^E^=2
+R6
+32
+R64
+R65
+R66
+R10
+R11
+!s100 e932Cf^1gWP29oa?FC@1M2
+!i10b 1
+Eeightbitadder
+R12
+R1
+R2
+R3
+Z67 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAdder.vhd
+Z68 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAdder.vhd
+l0
+L19
+V8dFhWFAAe4nYX_ozL1@9<0
+R6
+32
+Z69 !s108 1689831021.547000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAdder.vhd|
+Z71 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAdder.vhd|
+R10
+R11
+!s100 ml8T=iXcoLaN7NTF;NKXN3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 13 eightbitadder 0 22 8dFhWFAAe4nYX_ozL1@9<0
+l38
+L28
+VE0_k5k4ClPL^W@3B7kZE62
+R6
+32
+R69
+R70
+R71
+R10
+R11
+!s100 B@5l2=SkWHiLZz9fSM52a1
+!i10b 1
+Eeightbitaddsub
+R12
+R1
+R2
+R3
+Z72 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAddSub.vhd
+Z73 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAddSub.vhd
+l0
+L19
+Vm>`JJNgl=GFPoZV]^BaTC0
+R6
+32
+Z74 !s108 1689831021.712000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAddSub.vhd|
+Z76 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAddSub.vhd|
+R10
+R11
+!s100 2V`Rl;QLkQKC^<mzh3YfP1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 14 eightbitaddsub 0 22 m>`JJNgl=GFPoZV]^BaTC0
+l40
+L28
+VkdMj;hhDfMKllMi;:`Gzi1
+R6
+32
+R74
+R75
+R76
+R10
+R11
+!s100 J7V4_W<KBcUBJPhFL4RAG3
+!i10b 1
+Eeightbitcomparator
+R12
+R1
+R2
+R3
+Z77 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparator.vhd
+Z78 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparator.vhd
+l0
+L31
+VPF;n@ic5]^07HXChG`cd>1
+R6
+32
+Z79 !s108 1689831021.867000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparator.vhd|
+Z81 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparator.vhd|
+R10
+R11
+!s100 TofWTOLnPb<EMmZP?:0<z3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 18 eightbitcomparator 0 22 PF;n@ic5]^07HXChG`cd>1
+l48
+L37
+VCY`0eo>[O3SDd@V0Bm9`=0
+R6
+32
+R79
+R80
+R81
+R10
+R11
+!s100 BcW3@bNHkZ7dXUD795aCW1
+!i10b 1
+Eeightbitcomparatorzero
+Z82 w1689486864
+R1
+R2
+R3
+Z83 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparatorZero.vhd
+Z84 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparatorZero.vhd
+l0
+L31
+Vd=T^`ATDdLBii61m:h@=J1
+R6
+32
+Z85 !s108 1689831021.998000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparatorZero.vhd|
+Z87 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparatorZero.vhd|
+R10
+R11
+!s100 ;C;PSc75YiAc6zZ;B78S]1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 22 eightbitcomparatorzero 0 22 d=T^`ATDdLBii61m:h@=J1
+l41
+L37
+V7;1>Z7H[aDHPSc[17g[6?0
+R6
+32
+R85
+R86
+R87
+R10
+R11
+!s100 1_S?XA5FYR=BjM4H5>Qag2
+!i10b 1
+Eeightbitregister
+R12
+R1
+R2
+R3
+Z88 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitRegister.vhd
+Z89 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitRegister.vhd
+l0
+L31
+V00X9`0:Ri8SZG7dncPdbK2
+R6
+32
+Z90 !s108 1689831022.130000
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitRegister.vhd|
+Z92 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitRegister.vhd|
+R10
+R11
+!s100 nKUO=gQ?5Sj;4@4TS=b4<3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 16 eightbitregister 0 22 00X9`0:Ri8SZG7dncPdbK2
+l51
+L39
+Va[_TAXQ@@k9F7z`M0<K_M2
+R6
+32
+R90
+R91
+R92
+R10
+R11
+!s100 H@<zZ]_ASoK7J70c1ngGM2
+!i10b 1
+Eenabledsrlatch
+R12
+R1
+R2
+R3
+Z93 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enabledsrlatch.vhd
+Z94 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enabledsrlatch.vhd
+l0
+L31
+VjRihek:l0RQIE4H]lagKO2
+R6
+32
+Z95 !s108 1689831027.288000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enabledsrlatch.vhd|
+Z97 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enabledsrlatch.vhd|
+R10
+R11
+!s100 ZSUNY=X^3aed=WbEXMD8d1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 14 enabledsrlatch 0 22 jRihek:l0RQIE4H]lagKO2
+l41
+L38
+VH7d1l38R;Vk>aKK7b[f]m1
+R6
+32
+R95
+R96
+R97
+R10
+R11
+!s100 6G3@RhR@Em]e1PFKl_TQL2
+!i10b 1
+Eenardff_2
+R12
+R1
+R2
+R3
+Z98 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enardFF_2.vhd
+Z99 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enardFF_2.vhd
+l0
+L31
+VW45mLHZkgINE^UQaXmP5[3
+R6
+32
+Z100 !s108 1689831027.447000
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enardFF_2.vhd|
+Z102 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enardFF_2.vhd|
+R10
+R11
+!s100 LM:aJ[Ade62O^TDCQB2jH0
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 9 enardff_2 0 22 W45mLHZkgINE^UQaXmP5[3
+l43
+L40
+V3clzVS[W5TXh[=;E;]4B51
+R6
+32
+R100
+R101
+R102
+R10
+R11
+!s100 n`NKG5gX7V@?eV@4dAU663
+!i10b 1
+Eendff_2
+R12
+R1
+R2
+R3
+Z103 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/endFF_2.vhd
+Z104 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/endFF_2.vhd
+l0
+L31
+V:inJm@iN6k;n?8aDC<:5;2
+R6
+32
+Z105 !s108 1689831027.570000
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/endFF_2.vhd|
+Z107 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/endFF_2.vhd|
+R10
+R11
+!s100 =Dg^0dZWT2Ym03=OO_>4b3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 7 endff_2 0 22 :inJm@iN6k;n?8aDC<:5;2
+l42
+L39
+V8SDfKzn]3l0e@ez06dNoz0
+R6
+32
+R105
+R106
+R107
+R10
+R11
+!s100 W4c;h?gmO]m58zQbfJi@22
+!i10b 1
+Efivebit2to1mux
+Z108 w1689660063
+R1
+R2
+R3
+Z109 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBit2to1Mux.vhd
+Z110 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBit2to1Mux.vhd
+l0
+L4
+VRjS??k7MJ]Wh7VDNa^UU31
+R6
+32
+Z111 !s108 1689831022.290000
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBit2to1Mux.vhd|
+Z113 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBit2to1Mux.vhd|
+R10
+R11
+!s100 7Bo83Bhk@RT[E5HSjj=ML0
+!i10b 1
+Astruct
+R1
+R2
+DEx4 work 14 fivebit2to1mux 0 22 RjS??k7MJ]Wh7VDNa^UU31
+l23
+L12
+V9_Illfnlg^GT_g:YCTcan1
+R6
+32
+R111
+R112
+R113
+R10
+R11
+!s100 cWikVo1dhO6d?YIC3kA=?2
+!i10b 1
+Efivebitcomparator
+Z114 w1689663416
+R1
+R2
+R3
+Z115 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitComparator.vhd
+Z116 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitComparator.vhd
+l0
+L31
+VNT<Ee@YDXfh8WLYZSNlaT2
+R6
+32
+Z117 !s108 1689831022.439000
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitComparator.vhd|
+Z119 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitComparator.vhd|
+R10
+R11
+!s100 kZ6zbAd[KIG7ZgVQJOMlD3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 17 fivebitcomparator 0 22 NT<Ee@YDXfh8WLYZSNlaT2
+l48
+L37
+VGc<1SaWj:2oOaKNn?9FMh0
+R6
+32
+R117
+R118
+R119
+R10
+R11
+!s100 YI`c^C[YH@1aIfam9mOjj2
+!i10b 1
+Efivebitregister
+Z120 w1689620485
+R1
+R2
+R3
+Z121 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitRegister.vhd
+Z122 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitRegister.vhd
+l0
+L4
+VeO7984B?:b]nDIQCAd6_S1
+R6
+32
+Z123 !s108 1689831022.575000
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitRegister.vhd|
+Z125 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitRegister.vhd|
+R10
+R11
+!s100 1Ib<kgn]1VC`_a2REBMf^1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 15 fivebitregister 0 22 eO7984B?:b]nDIQCAd6_S1
+l24
+L12
+V_jRQ6CAMkRID8Q;DWYFRl2
+R6
+32
+R123
+R124
+R125
+R10
+R11
+!s100 `R:=9Cj56Z95EUNe=DmDc3
+!i10b 1
+Eforwardingunit
+Z126 w1689826671
+R1
+R2
+R3
+Z127 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/forwardingUnit.vhd
+Z128 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/forwardingUnit.vhd
+l0
+L4
+VQ^DVQ`7;K<gIKSd02bhP91
+R6
+32
+Z129 !s108 1689831022.922000
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/forwardingUnit.vhd|
+Z131 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/forwardingUnit.vhd|
+R10
+R11
+!s100 Yd_Icc4KNG9SWo?hWzYd00
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 14 forwardingunit 0 22 Q^DVQ`7;K<gIKSd02bhP91
+l41
+L17
+Vj44@?9aLNoFQN>OPWTazL3
+R6
+32
+R129
+R130
+R131
+R10
+R11
+!s100 VH63b]^0ghJ[>g1b@UQY;1
+!i10b 1
+Ehazarddetectionunit
+Z132 w1689831015
+R1
+R2
+R3
+Z133 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/hazardDetectionUnit.vhd
+Z134 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/hazardDetectionUnit.vhd
+l0
+L4
+VQg3aSD^k2?FfQIXZ3eGXi0
+R6
+32
+Z135 !s108 1689831023.104000
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/hazardDetectionUnit.vhd|
+Z137 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/hazardDetectionUnit.vhd|
+R10
+R11
+!s100 VE=GPfC=ZH<22MBfACP760
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 19 hazarddetectionunit 0 22 Qg3aSD^k2?FfQIXZ3eGXi0
+l32
+L14
+VXB2[0`zV8g;RnMG[c1:zj0
+R6
+32
+R135
+R136
+R137
+R10
+R11
+!s100 5zB9OknHZgN<04UK;i:dV3
+!i10b 1
+Einstrmem
+Z138 w1688443275
+R1
+R2
+R3
+Z139 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/instrMem.vhd
+Z140 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/instrMem.vhd
+l0
+L42
+V[Y2OFN@LQG1dB@W?=mEeU0
+R6
+32
+Z141 !s108 1689831023.264000
+Z142 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/instrMem.vhd|
+Z143 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/instrMem.vhd|
+R10
+R11
+!s100 2gg8Z0d8@4nI]QH3b=BR_3
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 8 instrmem 0 22 [Y2OFN@LQG1dB@W?=mEeU0
+l82
+L52
+VGd^8oh:3R<2n8Hnb6OieE3
+R6
+32
+R141
+R142
+R143
+R10
+R11
+!s100 3[GdXO?T;A<z05]=zTSh;2
+!i10b 1
+Ejkff_2
+R12
+R1
+R2
+R3
+Z144 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/jkFF_2.vhd
+Z145 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/jkFF_2.vhd
+l0
+L31
+VHn]OSaX^Fec8:YzTS2zzc3
+R6
+32
+Z146 !s108 1689831027.702000
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/jkFF_2.vhd|
+Z148 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/jkFF_2.vhd|
+R10
+R11
+!s100 oIY3CO4nWN?9_U??_Ye:j2
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 6 jkff_2 0 22 Hn]OSaX^Fec8:YzTS2zzc3
+l49
+L38
+VSBEi9BYnH``06<ePYEdo10
+R6
+32
+R146
+R147
+R148
+R10
+R11
+!s100 liER;^nzTSJ3RfiAHIkXf0
+!i10b 1
+Eninebit2to1mux
+Z149 w1689663436
+R1
+R2
+R3
+Z150 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/nineBit2to1Mux.vhd
+Z151 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/nineBit2to1Mux.vhd
+l0
+L4
+VG3onBOnRSWn^DMiJQ4SH72
+R6
+32
+Z152 !s108 1689831023.433000
+Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/nineBit2to1Mux.vhd|
+Z154 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/nineBit2to1Mux.vhd|
+R10
+R11
+!s100 jBA:jglN;deH]6GhmJHiL3
+!i10b 1
+Astruct
+R1
+R2
+DEx4 work 14 ninebit2to1mux 0 22 G3onBOnRSWn^DMiJQ4SH72
+l23
+L12
+Vhe3U1?HWWKfYV6W6P[LdS3
+R6
+32
+R152
+R153
+R154
+R10
+R11
+!s100 UiZAlBljX^U4IQ]Nf?^_H1
+!i10b 1
+Eninebitregister
+Z155 w1685574983
+R1
+R2
+R3
+Z156 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ninebitregister.vhd
+Z157 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ninebitregister.vhd
+l0
+L31
+Vc=JlgUifBeZ>3^_VILZQV1
+R6
+32
+Z158 !s108 1689831023.594000
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ninebitregister.vhd|
+Z160 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ninebitregister.vhd|
+R10
+R11
+!s100 YznS80dRP<6ea14TJfTRT1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 15 ninebitregister 0 22 c=JlgUifBeZ>3^_VILZQV1
+l51
+L39
+Vk4Gl8L?VdPhczIYAX>GZk0
+R6
+32
+R158
+R159
+R160
+R10
+R11
+!s100 dTEZEe3?BIdH6baUdPe>Q3
+!i10b 1
+Eonebit2to1mux
+R12
+R1
+R2
+R3
+Z161 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit2to1Mux.vhd
+Z162 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit2to1Mux.vhd
+l0
+L4
+V@P<Lhh1kV0:<n1NH0@No30
+R6
+32
+Z163 !s108 1689831023.741000
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit2to1Mux.vhd|
+Z165 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit2to1Mux.vhd|
+R10
+R11
+!s100 ;T?Sn_5f77>G4o^n2Q0Q@3
+!i10b 1
+Astruct
+R1
+R2
+DEx4 work 13 onebit2to1mux 0 22 @P<Lhh1kV0:<n1NH0@No30
+l16
+L14
+VT5dHjFa9d;Q]3QJ8DkXRC0
+R6
+32
+R163
+R164
+R165
+R10
+R11
+!s100 2E<:09_O8g9[15e;8?F]O2
+!i10b 1
+Eonebit3to1mux
+Z166 w1689657865
+R1
+R2
+R3
+Z167 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit3to1Mux.vhd
+Z168 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit3to1Mux.vhd
+l0
+L4
+VM1LnOJdK]>A2J0Ol:zZRY2
+R6
+32
+Z169 !s108 1689831023.867000
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit3to1Mux.vhd|
+Z171 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit3to1Mux.vhd|
+R10
+R11
+!s100 V[Mk@en<Hj>CT62`[3gcn2
+!i10b 1
+Astruct
+R1
+R2
+DEx4 work 13 onebit3to1mux 0 22 M1LnOJdK]>A2J0Ol:zZRY2
+l16
+L14
+VZaPo<nbGUbPFAEdid==k>0
+R6
+32
+R169
+R170
+R171
+R10
+R11
+!s100 YYHR_8F=AlZ;WD8Sf6S3e1
+!i10b 1
+Eonebit5to1mux
+R12
+R1
+R2
+R3
+Z172 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit5to1Mux.vhd
+Z173 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit5to1Mux.vhd
+l0
+L4
+VgIEDQ5b2[B3<hKFLNCMCb0
+R6
+32
+Z174 !s108 1689831023.988000
+Z175 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit5to1Mux.vhd|
+Z176 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit5to1Mux.vhd|
+R10
+R11
+!s100 `T;K]ClGoIB<cj4O94e_`3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 13 onebit5to1mux 0 22 gIEDQ5b2[B3<hKFLNCMCb0
+l16
+L12
+VnoKIe7ZFIA39CA:_A<f071
+R6
+32
+R174
+R175
+R176
+R10
+R11
+!s100 65<RCc:KGW@o_l=oiD6_?3
+!i10b 1
+Eonebit6to1mux
+Z177 w1688438416
+R1
+R2
+R3
+Z178 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit6to1Mux.vhd
+Z179 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit6to1Mux.vhd
+l0
+L4
+Vb49SZJOcMVYm<ANh^cHl21
+R6
+32
+Z180 !s108 1689831024.241000
+Z181 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit6to1Mux.vhd|
+Z182 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit6to1Mux.vhd|
+R10
+R11
+!s100 VzKkOzgOl7kd2Sj4PCU]j0
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 13 onebit6to1mux 0 22 b49SZJOcMVYm<ANh^cHl21
+l16
+L12
+Vh^TbPN;15bfDOE=8Mfi>22
+R6
+32
+R180
+R181
+R182
+R10
+R11
+!s100 PJCk_<?=GPOhjIdhaE2f32
+!i10b 1
+Eonebit8to1mux
+R12
+R1
+R2
+R3
+Z183 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit8to1Mux.vhd
+Z184 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit8to1Mux.vhd
+l0
+L4
+VY9fDHe2_3OQ=WZZPoMGXj3
+R6
+32
+Z185 !s108 1689831024.359000
+Z186 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit8to1Mux.vhd|
+Z187 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit8to1Mux.vhd|
+R10
+R11
+!s100 H6k6SloMdag1AhhMDO4O_1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 13 onebit8to1mux 0 22 Y9fDHe2_3OQ=WZZPoMGXj3
+l16
+L12
+VU<XO4KJJ4lQ]c[mNP9zO13
+R6
+32
+R185
+R186
+R187
+R10
+R11
+!s100 >^HiUjcY0SQ8MhAZjfZIO3
+!i10b 1
+Eonebitadder
+R12
+R1
+R2
+R3
+Z188 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitadder.vhd
+Z189 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitadder.vhd
+l0
+L31
+V<WPaMLJ_Q??nLET?Qn5W02
+R6
+32
+Z190 !s108 1689831027.866000
+Z191 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitadder.vhd|
+Z192 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitadder.vhd|
+R10
+R11
+!s100 3=]2afhWa=ab9Iz_HFcb00
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 11 onebitadder 0 22 <WPaMLJ_Q??nLET?Qn5W02
+l41
+L38
+VMbkMHFWh@k3b7o@o6>i5k2
+R6
+32
+R190
+R191
+R192
+R10
+R11
+!s100 RRbEGVI`EKl=XLGnQ:<dQ0
+!i10b 1
+Eonebitcomparator
+R12
+R1
+R2
+R3
+Z193 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitcomparator.vhd
+Z194 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitcomparator.vhd
+l0
+L31
+Va114[DTKdX[dS9GV3?VV>2
+R6
+32
+Z195 !s108 1689831028.007000
+Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitcomparator.vhd|
+Z197 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitcomparator.vhd|
+R10
+R11
+!s100 <jX6<_c^nQ8XW_1O_gY[<1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 16 onebitcomparator 0 22 a114[DTKdX[dS9GV3?VV>2
+l42
+L38
+VA0g5UdUYmzdXnCE:h69Va3
+R6
+32
+R195
+R196
+R197
+R10
+R11
+!s100 8fVAI]h6XZcSDo?:0YWH41
+!i10b 1
+Epipeline
+Z198 w1689663998
+R1
+R2
+R3
+Z199 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/pipeline.vhd
+Z200 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/pipeline.vhd
+l0
+L4
+VlkQj?>d6ibi1EWBRQ>7D:0
+R6
+32
+Z201 !s108 1689831024.475000
+Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/pipeline.vhd|
+Z203 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/pipeline.vhd|
+R10
+R11
+!s100 EcAB_ga=3[RV2[elNlnMT3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 8 pipeline 0 22 lkQj?>d6ibi1EWBRQ>7D:0
+l373
+L17
+VMoWIbKUlBW0:meDJA?dUC2
+R6
+32
+R201
+R202
+R203
+R10
+R11
+!s100 U?ToIZZF>C1B6>]Tm4AR13
+!i10b 1
+Eregex
+Z204 w1689663458
+R1
+R2
+R3
+Z205 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEX.vhd
+Z206 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEX.vhd
+l0
+L4
+V0:L3I?k^NHUWFX[R^oJan1
+R6
+32
+Z207 !s108 1689831024.609000
+Z208 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEX.vhd|
+Z209 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEX.vhd|
+R10
+R11
+!s100 bW0l1UH6N?SJ3kihmB5=?0
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 5 regex 0 22 0:L3I?k^NHUWFX[R^oJan1
+l24
+L12
+V82OOM5?O3J0QTQ<o^da>^2
+R6
+32
+R207
+R208
+R209
+R10
+R11
+!s100 :RooQ]>emEMb]8gz5>h<[1
+!i10b 1
+Eregexmem
+Z210 w1689663755
+R1
+R2
+R3
+Z211 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEXMEM.vhd
+Z212 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEXMEM.vhd
+l0
+L4
+VF1=68d^fXXfgdT_FTJVcN0
+R6
+32
+Z213 !s108 1689831024.747000
+Z214 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEXMEM.vhd|
+Z215 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEXMEM.vhd|
+R10
+R11
+!s100 hMlW7<e2NI7R70HF]<a0G1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 8 regexmem 0 22 F1=68d^fXXfgdT_FTJVcN0
+l61
+L22
+VA]ZTb0`T??Yllm;a`DUnL3
+R6
+32
+R213
+R214
+R215
+R10
+R11
+!s100 alCVa4FVVOSKLHL<>;1`;0
+!i10b 1
+Eregidex
+Z216 w1689663781
+R1
+R2
+R3
+Z217 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIDEX.vhd
+Z218 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIDEX.vhd
+l0
+L4
+V7ZUjdKS0P[d@HTJBmOKTA0
+R6
+32
+Z219 !s108 1689831024.900000
+Z220 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIDEX.vhd|
+Z221 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIDEX.vhd|
+R10
+R11
+!s100 Cbi1VEUXYSc_Mf^5bz4Z<1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 7 regidex 0 22 7ZUjdKS0P[d@HTJBmOKTA0
+l82
+L31
+VK9<gGnX``3?zHO9hPMEPo0
+R6
+32
+R219
+R220
+R221
+R10
+R11
+!s100 M?f>JC3A4HVjGYPMl9FEe0
+!i10b 1
+Eregifid
+Z222 w1689663799
+R1
+R2
+R3
+Z223 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIFID.vhd
+Z224 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIFID.vhd
+l0
+L4
+V24HVAD4R;ITR2]?37NE;l0
+R6
+32
+Z225 !s108 1689831025.060000
+Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIFID.vhd|
+Z227 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIFID.vhd|
+R10
+R11
+!s100 XeZUbU1M3fhaDzT^K]in02
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 7 regifid 0 22 24HVAD4R;ITR2]?37NE;l0
+l24
+L12
+VJ`O_[74SnIlC22KB?JObj3
+R6
+32
+R225
+R226
+R227
+R10
+R11
+!s100 XS0f8IPBab=^onA2;oVgl3
+!i10b 1
+Eregisterfile
+R12
+R1
+R2
+R3
+Z228 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/registerFile.vhd
+Z229 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/registerFile.vhd
+l0
+L4
+VdAHY_OBD3]0oO3IF8HJ951
+R6
+32
+Z230 !s108 1689831025.226000
+Z231 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/registerFile.vhd|
+Z232 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/registerFile.vhd|
+R10
+R11
+!s100 0j^mh=A?:c:TzXgGn?6CU0
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 12 registerfile 0 22 dAHY_OBD3]0oO3IF8HJ951
+l60
+L20
+V^KaJleSRdoe1?5?aI_S6:3
+R6
+32
+R230
+R231
+R232
+R10
+R11
+!s100 V4K>negC<E0cBjL2KQNb<2
+!i10b 1
+Eregm
+Z233 w1689625336
+R1
+R2
+R3
+Z234 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regM.vhd
+Z235 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regM.vhd
+l0
+L4
+V]n9IObJ4n9oz>h82]DAT;1
+R6
+32
+Z236 !s108 1689831025.393000
+Z237 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regM.vhd|
+Z238 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regM.vhd|
+R10
+R11
+!s100 d<dJ>8^fja`l1nLGdo=7o3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 4 regm 0 22 ]n9IObJ4n9oz>h82]DAT;1
+l24
+L12
+Va=?Hg>PfFd`AMohmHQSK^1
+R6
+32
+R236
+R237
+R238
+R10
+R11
+!s100 [;<ecQHIFj;X:4fEbh;7:3
+!i10b 1
+Eregmemwb
+Z239 w1689663734
+R1
+R2
+R3
+Z240 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regMEMWB.vhd
+Z241 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regMEMWB.vhd
+l0
+L4
+VnZ1UB;m8]^_O<dS8eVSeb3
+R6
+32
+Z242 !s108 1689831025.638000
+Z243 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regMEMWB.vhd|
+Z244 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regMEMWB.vhd|
+R10
+R11
+!s100 HiOcACfYc6YcPS?FK;N9I1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 8 regmemwb 0 22 nZ1UB;m8]^_O<dS8eVSeb3
+l48
+L19
+VgLbz;bf7WejW^G=7KZ2e=0
+R6
+32
+R242
+R243
+R244
+R10
+R11
+!s100 8KK8e4i5b34l1dZXQGogJ2
+!i10b 1
+Eregwb
+Z245 w1689625623
+R1
+R2
+R3
+Z246 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regWB.vhd
+Z247 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regWB.vhd
+l0
+L4
+V:H]cmL?AkH@KOzHjm2ZW@1
+R6
+32
+Z248 !s108 1689831025.826000
+Z249 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regWB.vhd|
+Z250 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regWB.vhd|
+R10
+R11
+!s100 ZCS_dOG<kORiQ<z^J`PG_3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 5 regwb 0 22 :H]cmL?AkH@KOzHjm2ZW@1
+l24
+L12
+V<iD[>1>Yboc0PUA?B3SfW1
+R6
+32
+R248
+R249
+R250
+R10
+R11
+!s100 `kK=cXS<ij::@ii0?m<cS3
+!i10b 1
+Esbarrbarlatch
+R12
+R1
+R2
+R3
+Z251 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/sbarrbarlatch.vhd
+Z252 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/sbarrbarlatch.vhd
+l0
+L31
+Vn=^OXC^VC6m`nMJB<GV:]3
+R6
+32
+Z253 !s108 1689831028.234000
+Z254 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/sbarrbarlatch.vhd|
+Z255 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/sbarrbarlatch.vhd|
+R10
+R11
+!s100 PlnEf?BZ?NFd503EhINnc3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 13 sbarrbarlatch 0 22 n=^OXC^VC6m`nMJB<GV:]3
+l39
+L37
+VgoU;aVb0lQo393UDGgk>m3
+R6
+32
+R253
+R254
+R255
+R10
+R11
+!s100 B]F7m03Q5Ufz;CkWLDzAi1
+!i10b 1
+Eshiftleft2
+R12
+R1
+R2
+R3
+Z256 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2.vhd
+Z257 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2.vhd
+l0
+L4
+Vm:8T^0l_oZ?WH7N^mT^e60
+R6
+32
+Z258 !s108 1689831026.006000
+Z259 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2.vhd|
+Z260 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2.vhd|
+R10
+R11
+!s100 @O0LGkch=U8n>BOP13:Ml3
+!i10b 1
+Astruct
+R1
+R2
+DEx4 work 10 shiftleft2 0 22 m:8T^0l_oZ?WH7N^mT^e60
+l17
+L13
+VnH=8SABOz7<_^[9Doj:1:3
+R6
+32
+R258
+R259
+R260
+R10
+R11
+!s100 :?U_GAUMH9[5lnf<l[47U1
+!i10b 1
+Eshiftleft2_eightbits
+R12
+R1
+R2
+R3
+Z261 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2_eightBits.vhd
+Z262 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2_eightBits.vhd
+l0
+L4
+V_:K7[a8_ZFkmi_;`ljIo?1
+R6
+32
+Z263 !s108 1689831026.131000
+Z264 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2_eightBits.vhd|
+Z265 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2_eightBits.vhd|
+R10
+R11
+!s100 bfXUjNanAmZV_;Q>fFAXe2
+!i10b 1
+Astruct
+R1
+R2
+DEx4 work 20 shiftleft2_eightbits 0 22 _:K7[a8_ZFkmi_;`ljIo?1
+l17
+L13
+V7_h=LG>SC3SXPlI:nMnNe1
+R6
+32
+R263
+R264
+R265
+R10
+R11
+!s100 70a5:C5iLfKKHVcm1;=oV0
+!i10b 1
+Esinglecycleprocessor
+Z266 w1688438934
+R1
+R2
+R3
+Z267 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/singleCycleProcessor.vhd
+Z268 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/singleCycleProcessor.vhd
+l0
+L4
+VfEBaBDLf3^@RHW]_0l:zN2
+R6
+32
+Z269 !s108 1689831026.248000
+Z270 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/singleCycleProcessor.vhd|
+Z271 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/singleCycleProcessor.vhd|
+R10
+R11
+!s100 9o?fN9IE@f@9OUEUfJzVV0
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 20 singlecycleprocessor 0 22 fEBaBDLf3^@RHW]_0l:zN2
+l196
+L17
+VL9Ai_D_4ihIMJ2J8Vh0nf1
+R6
+32
+R269
+R270
+R271
+R10
+R11
+!s100 MSBTo0SiSeod7LPPS>_b@3
+!i10b 1
+Esrlatch
+R12
+R1
+R2
+R3
+Z272 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/srlatch.vhd
+Z273 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/srlatch.vhd
+l0
+L31
+VGJ_4f`ZPSJ>J2Z_ia:Qfh2
+R6
+32
+Z274 !s108 1689831028.355000
+Z275 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/srlatch.vhd|
+Z276 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/srlatch.vhd|
+R10
+R11
+!s100 3CWg0zV;_XQ8?<G:<oH?90
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 7 srlatch 0 22 GJ_4f`ZPSJ>J2Z_ia:Qfh2
+l39
+L37
+VMgQCN65]NQa:S?aHJXWi;3
+R6
+32
+R274
+R275
+R276
+R10
+R11
+!s100 LJ=6Zm:b7:BI?[nel>M9G1
+!i10b 1
+Etb_forwardingunit
+Z277 w1689825981
+Z278 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z279 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_forwardingUnit.vhd
+Z280 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_forwardingUnit.vhd
+l0
+L5
+V<HSDgLfnac0[VNb_n^kl_1
+R6
+32
+Z281 !s108 1689831019.959000
+Z282 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_forwardingUnit.vhd|
+Z283 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_forwardingUnit.vhd|
+R10
+R11
+!s100 B0Fz@kRG?J<fCJDl9iRkM0
+!i10b 1
+Atestbench
+R278
+R1
+R2
+DEx4 work 17 tb_forwardingunit 0 22 <HSDgLfnac0[VNb_n^kl_1
+l30
+L8
+VHH6A3m3gOG=Xm0C>_ZbhI3
+R6
+32
+R281
+R282
+R283
+R10
+R11
+!s100 4AJob2g?;CGBm=2G8XOhX1
+!i10b 1
+Etb_hazarddetectionunit
+Z284 w1689830806
+R278
+R1
+R2
+R3
+Z285 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_hazardDetectionUnit.vhd
+Z286 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_hazardDetectionUnit.vhd
+l0
+L5
+VTJhoO1PWM`HLcJP5zHke_2
+!s100 fn7`641eJfcaY=FUBfiY_1
+R6
+32
+!i10b 1
+Z287 !s108 1689831029.193000
+Z288 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_hazardDetectionUnit.vhd|
+Z289 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_hazardDetectionUnit.vhd|
+R10
+R11
+Atestbench
+R278
+R1
+R2
+Z290 DEx4 work 22 tb_hazarddetectionunit 0 22 TJhoO1PWM`HLcJP5zHke_2
+l27
+L8
+Z291 VU1QG]_ccmXCQUF5>Ba8hn2
+Z292 !s100 EJB;SOGbH1aA9B:MW?fIk3
+R6
+32
+!i10b 1
+R287
+R288
+R289
+R10
+R11
+Etff_2
+R12
+R1
+R2
+R3
+Z293 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tFF_2.vhd
+Z294 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tFF_2.vhd
+l0
+L31
+VQJAz5n>5DngJl;[7;oA`V0
+R6
+32
+Z295 !s108 1689831028.473000
+Z296 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tFF_2.vhd|
+Z297 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tFF_2.vhd|
+R10
+R11
+!s100 =dkdAzXY>b_d_K6g97ROE3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 5 tff_2 0 22 QJAz5n>5DngJl;[7;oA`V0
+l48
+L38
+Via^CTVbn[h=enP8N[NOGl3
+R6
+32
+R295
+R296
+R297
+R10
+R11
+!s100 CcjD<>kCLG;5K466`M7SY0
+!i10b 1
+Ethirtytwobitadder
+R12
+R1
+R2
+R3
+Z298 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/thirtyTwoBitAdder.vhd
+Z299 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/thirtyTwoBitAdder.vhd
+l0
+L4
+V7cW:`fmY9?o?em4mojafH1
+R6
+32
+Z300 !s108 1689831026.424000
+Z301 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/thirtyTwoBitAdder.vhd|
+Z302 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/thirtyTwoBitAdder.vhd|
+R10
+R11
+!s100 NE@ED;j4^XBVk[TSgjgA00
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 17 thirtytwobitadder 0 22 7cW:`fmY9?o?em4mojafH1
+l26
+L12
+V]hWJXWHVGbFMf@NOA^hRh3
+R6
+32
+R300
+R301
+R302
+R10
+R11
+!s100 YVUI=>1IILf^^U58M3Ajk2
+!i10b 1
+Ethree_to_eight_decoder
+Z303 w1688515719
+R1
+R2
+R3
+Z304 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/three_to_eight_decoder.vhd
+Z305 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/three_to_eight_decoder.vhd
+l0
+L4
+V_Pmo3kYmzDPILMR?W>YeW2
+R6
+32
+Z306 !s108 1689831026.572000
+Z307 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/three_to_eight_decoder.vhd|
+Z308 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/three_to_eight_decoder.vhd|
+R10
+R11
+!s100 <DO5hPMKJmZIk3La;g^1U2
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 22 three_to_eight_decoder 0 22 _Pmo3kYmzDPILMR?W>YeW2
+l15
+L11
+Vo>SCk0[;HCEd;Xh6EE]1e3
+R6
+32
+R306
+R307
+R308
+R10
+R11
+!s100 bEWRjPm4>Nc@BLk`WFlDc2
+!i10b 1
+Ethreebit2to1mux
+R12
+R1
+R2
+R3
+Z309 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threeBit2to1Mux.vhd
+Z310 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threeBit2to1Mux.vhd
+l0
+L4
+VVnVa8A<A1IEzKCom?39BU3
+R6
+32
+Z311 !s108 1689831026.722000
+Z312 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threeBit2to1Mux.vhd|
+Z313 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threeBit2to1Mux.vhd|
+R10
+R11
+!s100 1dEa1>FMWEkhEQbnS98821
+!i10b 1
+Astruct
+R1
+R2
+DEx4 work 15 threebit2to1mux 0 22 VnVa8A<A1IEzKCom?39BU3
+l27
+L14
+V`AhHgRGV[[zRUZ6Q8XC5=2
+R6
+32
+R311
+R312
+R313
+R10
+R11
+!s100 Z8zZ?6K<EZE^lzLz:z2?X0
+!i10b 1
+Ethreebitadder
+R12
+R1
+R2
+R3
+Z314 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitadder.vhd
+Z315 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitadder.vhd
+l0
+L31
+VShI=ALZlXdJ`YkFIYDADk0
+R6
+32
+Z316 !s108 1689831028.615000
+Z317 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitadder.vhd|
+Z318 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitadder.vhd|
+R10
+R11
+!s100 kzYkFJ>kTMUWi@ncaMB3:0
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 13 threebitadder 0 22 ShI=ALZlXdJ`YkFIYDADk0
+l49
+L38
+VO8IEQKloF8[U2@OWHG>:F1
+R6
+32
+R316
+R317
+R318
+R10
+R11
+!s100 KY<WGW;Z;8HUdg67fVR>H2
+!i10b 1
+Ethreebitcomparator
+R12
+R1
+R2
+R3
+Z319 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitcomparator.vhd
+Z320 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitcomparator.vhd
+l0
+L31
+VS^93<`dGjF5I:Q_YYlKNG0
+R6
+32
+Z321 !s108 1689831028.756000
+Z322 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitcomparator.vhd|
+Z323 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitcomparator.vhd|
+R10
+R11
+!s100 <=IJVaE;=Dehibl;f>VCn1
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 18 threebitcomparator 0 22 S^93<`dGjF5I:Q_YYlKNG0
+l48
+L37
+VF2^nP@Kkf^]GoXhlYcHj`3
+R6
+32
+R321
+R322
+R323
+R10
+R11
+!s100 UMW^nd3FmW>i9ASK4f47X1
+!i10b 1
+Ethreebitregister
+R12
+R1
+R2
+R3
+Z324 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitregister.vhd
+Z325 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitregister.vhd
+l0
+L31
+VObVYdANS^gnHg:Pe0RWJM1
+R6
+32
+Z326 !s108 1689831028.896000
+Z327 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitregister.vhd|
+Z328 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitregister.vhd|
+R10
+R11
+!s100 l0bX>X=dLV44Da<[Cl79`3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 16 threebitregister 0 22 ObVYdANS^gnHg:Pe0RWJM1
+l51
+L39
+VGhznm2]=PGj8b=0iU:NhJ2
+R6
+32
+R326
+R327
+R328
+R10
+R11
+!s100 @WRQLHjd4WRCNN4WPCDF[0
+!i10b 1
+Ethreebitshiftregister
+R12
+R1
+R2
+R3
+Z329 8D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitshiftregister.vhd
+Z330 FD:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitshiftregister.vhd
+l0
+L31
+V1JSU58JnlJ<oPKEoghHSJ2
+R6
+32
+Z331 !s108 1689831029.048000
+Z332 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitshiftregister.vhd|
+Z333 !s107 D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitshiftregister.vhd|
+R10
+R11
+!s100 QG?a8@0V_lk=YS?bdQ=]=3
+!i10b 1
+Artl
+R1
+R2
+DEx4 work 21 threebitshiftregister 0 22 1JSU58JnlJ<oPKEoghHSJ2
+l51
+L39
+VI9clICZ4Ycj6UKoJ^b3<e3
+!s100 Y?<_z@G7XCX3QQ6^YUL_f1
+R6
+32
+R331
+R332
+R333
+R10
+R11
+!i10b 1

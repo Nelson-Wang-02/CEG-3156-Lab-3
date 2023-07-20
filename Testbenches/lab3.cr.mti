@@ -1,0 +1,475 @@
+D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tFF_2.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tFF_2.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tFF_2
+-- Compiling architecture rtl of tFF_2
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shiftLeft2
+-- Compiling architecture struct of shiftLeft2
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitregister.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitregister.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity threeBitRegister
+-- Compiling architecture rtl of threeBitRegister
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2_eightBits.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/shiftLeft2_eightBits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shiftLeft2_eightBits
+-- Compiling architecture struct of shiftLeft2_eightBits
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit8to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit8to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBit8to1Mux
+-- Compiling architecture rtl of eightBit8to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enardFF_2.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enardFF_2.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity enARdFF_2
+-- Compiling architecture rtl of enARdFF_2
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAdder.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAdder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBitAdder
+-- Compiling architecture rtl of eightBitAdder
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIDEX.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIDEX.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regIDEX
+-- Compiling architecture rtl of regIDEX
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_forwardingUnit.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_forwardingUnit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_forwardingUnit
+-- Compiling architecture testbench of tb_forwardingUnit
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit2to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit2to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity oneBit2to1Mux
+-- Compiling architecture struct of oneBit2to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/singleCycleProcessor.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/singleCycleProcessor.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity singleCycleProcessor
+-- Compiling architecture rtl of singleCycleProcessor
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/forwardingUnit.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/forwardingUnit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity forwardingUnit
+-- Compiling architecture rtl of forwardingUnit
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit6to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit6to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity oneBit6to1Mux
+-- Compiling architecture rtl of oneBit6to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitadder.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitadder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity threeBitAdder
+-- Compiling architecture rtl of threeBitAdder
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit5to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit5to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBit5to1Mux
+-- Compiling architecture rtl of eightBit5to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regM.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regM.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regM
+-- Compiling architecture rtl of regM
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitRegister.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitRegister.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBitRegister
+-- Compiling architecture rtl of eightBitRegister
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitRegister.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitRegister.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fiveBitRegister
+-- Compiling architecture rtl of fiveBitRegister
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ninebitregister.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ninebitregister.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nineBitRegister
+-- Compiling architecture rtl of nineBitRegister
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/pipeline.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/pipeline.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pipeline
+-- Compiling architecture rtl of pipeline
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threeBit2to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threeBit2to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity threeBit2to1Mux
+-- Compiling architecture struct of threeBit2to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparator.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparator.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBitComparator
+-- Compiling architecture rtl of eightBitComparator
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/counter.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/counter.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity counter
+-- Compiling architecture rtl of counter
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitcomparator.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitcomparator.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity oneBitComparator
+-- Compiling architecture rtl of oneBitComparator
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBit2to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBit2to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fiveBit2to1Mux
+-- Compiling architecture struct of fiveBit2to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/nineBit2to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/nineBit2to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nineBit2to1Mux
+-- Compiling architecture struct of nineBit2to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit3to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit3to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity oneBit3to1Mux
+-- Compiling architecture struct of oneBit3to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEXMEM.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEXMEM.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regEXMEM
+-- Compiling architecture rtl of regEXMEM
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/registerFile.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/registerFile.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity registerFile
+-- Compiling architecture rtl of registerFile
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regMEMWB.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regMEMWB.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regMEMWB
+-- Compiling architecture rtl of regMEMWB
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit2to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit2to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBit2to1Mux
+-- Compiling architecture struct of eightBit2to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitadder.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/onebitadder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity oneBitAdder
+-- Compiling architecture rtl of oneBitAdder
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ALUControlUnit.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/ALUControlUnit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUControlUnit
+-- Compiling architecture rtl of ALUControlUnit
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit6to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit6to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBit6to1Mux
+-- Compiling architecture rtl of eightBit6to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/controlLogicUnit.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/controlLogicUnit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity controlLogicUnit
+-- Compiling architecture rtl of controlLogicUnit
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparatorZero.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitComparatorZero.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBitComparatorZero
+-- Compiling architecture rtl of eightBitComparatorZero
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dataMem.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dataMem.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dataMem
+-- Compiling architecture SYN of datamem
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitComparator.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/fiveBitComparator.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fiveBitComparator
+-- Compiling architecture rtl of fiveBitComparator
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/jkFF_2.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/jkFF_2.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity jkFF_2
+-- Compiling architecture rtl of jkFF_2
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/alu.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/alu.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu
+-- Compiling architecture rtl of alu
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAddSub.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBitAddSub.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBitAddSub
+-- Compiling architecture rtl of eightBitAddSub
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enabledsrlatch.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/enabledsrlatch.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity enabledSRLatch
+-- Compiling architecture rtl of enabledSRLatch
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit8to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit8to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity oneBit8to1Mux
+-- Compiling architecture rtl of oneBit8to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit3to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/eightBit3to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eightBit3to1Mux
+-- Compiling architecture struct of eightBit3to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dFF_2.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/dFF_2.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dFF_2
+-- Compiling architecture rtl of dFF_2
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitshiftregister.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitshiftregister.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity threeBitShiftRegister
+-- Compiling architecture rtl of threeBitShiftRegister
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/sbarrbarlatch.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/sbarrbarlatch.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sBarrBarLatch
+-- Compiling architecture rtl of sBarrBarLatch
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEX.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regEX.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regEX
+-- Compiling architecture rtl of regEX
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/endFF_2.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/endFF_2.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity endFF_2
+-- Compiling architecture rtl of endFF_2
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitcomparator.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/threebitcomparator.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity threeBitComparator
+-- Compiling architecture rtl of threeBitComparator
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/instrMem.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/instrMem.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity instrMem
+-- Compiling architecture SYN of instrmem
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/three_to_eight_decoder.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/three_to_eight_decoder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity three_to_eight_decoder
+-- Compiling architecture rtl of three_to_eight_decoder
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/hazardDetectionUnit.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/hazardDetectionUnit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity hazardDetectionUnit
+-- Compiling architecture rtl of hazardDetectionUnit
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/srlatch.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/srlatch.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity srLatch
+-- Compiling architecture rtl of srLatch
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIFID.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regIFID.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regIFID
+-- Compiling architecture rtl of regIFID
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit5to1Mux.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/oneBit5to1Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity oneBit5to1Mux
+-- Compiling architecture rtl of oneBit5to1Mux
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/thirtyTwoBitAdder.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/thirtyTwoBitAdder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity thirtyTwoBitAdder
+-- Compiling architecture rtl of thirtyTwoBitAdder
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_hazardDetectionUnit.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/tb_hazardDetectionUnit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_hazardDetectionUnit
+-- Compiling architecture testbench of tb_hazardDetectionUnit
+
+} {} {}} D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regWB.vhd {1 {vcom -work work -2002 -explicit D:/1-Quartus_Projects/CEG-3156/CEG-3156-Lab-3/Testbenches/regWB.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regWB
+-- Compiling architecture rtl of regWB
+
+} {} {}}
